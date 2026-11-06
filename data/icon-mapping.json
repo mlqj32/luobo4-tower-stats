@@ -1,0 +1,4002 @@
+{
+  "status": "67座炮塔均与双架构TowerData的ID及资源表一致；全部PNG与原版逐字节一致",
+  "source": "data/TowerData.lua",
+  "towerCount": 67,
+  "changes": [
+    {
+      "id": 204,
+      "name": "导弹塔",
+      "before": [
+        "Missile01.png"
+      ],
+      "after": "AirBottle01.png"
+    },
+    {
+      "id": 258,
+      "name": "飞弹",
+      "before": [
+        "AirBottle01.png"
+      ],
+      "after": "Missile01.png"
+    },
+    {
+      "id": 262,
+      "name": "三连塔",
+      "before": [
+        "BStar01.png"
+      ],
+      "after": "Like01.png"
+    }
+  ],
+  "towers": [
+    {
+      "resource": "Bottle",
+      "icon": "02_明文资源/assets/res/towerskin/icon/Bottle01.png",
+      "iconSha256": "70256da9077197df19ee2d28339621e2df6e502626e02e45bca57014caee2ca0",
+      "evidence": {
+        "luac": {
+          "resource": "Bottle",
+          "constantIndex": 86,
+          "tableInstruction": 6,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Bottle",
+            "framecount": 3,
+            "pvrccz": "tower/TBottle.pvr.ccz",
+            "msc": "music/tower/TBottle.mp3",
+            "bProjRotate": true,
+            "plist": "tower/TBottle.plist",
+            "bNeedBoard": true,
+            "spanSecond": 0.04,
+            "bCross": false,
+            "rotateduration": 0,
+            "maxlevel": 3,
+            "rotateDegrs": 0,
+            "res": "Bottle%d%d.png",
+            "projPositionType": 3,
+            "bTowerRotate": true
+          },
+          "idInstruction": 17,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "Bottle",
+          "constantIndex": 86,
+          "tableInstruction": 6,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Bottle",
+            "framecount": 3,
+            "pvrccz": "tower/TBottle.pvr.ccz",
+            "msc": "music/tower/TBottle.mp3",
+            "bProjRotate": true,
+            "plist": "tower/TBottle.plist",
+            "bNeedBoard": true,
+            "spanSecond": 0.04,
+            "bCross": false,
+            "rotateduration": 0,
+            "maxlevel": 3,
+            "rotateDegrs": 0,
+            "res": "Bottle%d%d.png",
+            "projPositionType": 3,
+            "bTowerRotate": true
+          },
+          "idInstruction": 17,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 201,
+      "name": "瓶子炮"
+    },
+    {
+      "resource": "Fan",
+      "icon": "02_明文资源/assets/res/towerskin/icon/Fan01.png",
+      "iconSha256": "fc56f864fd38f1c361f9214fcdf5623ca370c9b979bca38c60cc57ebfeb70ab6",
+      "evidence": {
+        "luac": {
+          "resource": "Fan",
+          "constantIndex": 81,
+          "tableInstruction": 18,
+          "resourceConfig": {
+            "plist": "tower/TFan.plist",
+            "name": "Fan",
+            "framecount": 3,
+            "pvrccz": "tower/TFan.pvr.ccz",
+            "maxlevel": 3,
+            "bProjRotate": false,
+            "msc": "music/tower/TFan.mp3",
+            "spanSecond": 0.05,
+            "res": "Fan%d%d.png",
+            "bCross": true,
+            "projPositionType": 1,
+            "interval": 1,
+            "bTowerRotate": false,
+            "bNeedBoard": true
+          },
+          "idInstruction": 29,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "Fan",
+          "constantIndex": 81,
+          "tableInstruction": 18,
+          "resourceConfig": {
+            "plist": "tower/TFan.plist",
+            "name": "Fan",
+            "framecount": 3,
+            "pvrccz": "tower/TFan.pvr.ccz",
+            "maxlevel": 3,
+            "bProjRotate": false,
+            "msc": "music/tower/TFan.mp3",
+            "spanSecond": 0.05,
+            "res": "Fan%d%d.png",
+            "bCross": true,
+            "projPositionType": 1,
+            "interval": 1,
+            "bTowerRotate": false,
+            "bNeedBoard": true
+          },
+          "idInstruction": 29,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 202,
+      "name": "风扇"
+    },
+    {
+      "resource": "Bubble",
+      "icon": "02_明文资源/assets/res/towerskin/icon/Bubble01.png",
+      "iconSha256": "f9acdd28aa2e3e42524885ebcb5b6726f4848f0da2c2555185f74fbede06af9d",
+      "evidence": {
+        "luac": {
+          "resource": "Bubble",
+          "constantIndex": 80,
+          "tableInstruction": 30,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Bubble",
+            "framecount": 3,
+            "res_illu": "Bubble_full%d1.png",
+            "mscHit": "music/tower/TBubbleHit.mp3",
+            "bProjRotate": true,
+            "msc": "music/tower/TBubble.mp3",
+            "plist": "tower/TBubble.plist",
+            "rotateDegrs": 0,
+            "pvrccz": "tower/TBubble.pvr.ccz",
+            "bNeedBoard": true,
+            "spanSecond": 0.04,
+            "rotateduration": 0,
+            "maxlevel": 3,
+            "resTower": "Bubble_full%d1.png",
+            "resBase": "Bubble-1%d.png",
+            "res": "Bubble%s%d%d.png",
+            "projPositionType": 3,
+            "bTowerRotate": true
+          },
+          "idInstruction": 41,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "Bubble",
+          "constantIndex": 80,
+          "tableInstruction": 30,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Bubble",
+            "framecount": 3,
+            "res_illu": "Bubble_full%d1.png",
+            "mscHit": "music/tower/TBubbleHit.mp3",
+            "bProjRotate": true,
+            "msc": "music/tower/TBubble.mp3",
+            "plist": "tower/TBubble.plist",
+            "rotateDegrs": 0,
+            "pvrccz": "tower/TBubble.pvr.ccz",
+            "bNeedBoard": true,
+            "spanSecond": 0.04,
+            "rotateduration": 0,
+            "maxlevel": 3,
+            "resTower": "Bubble_full%d1.png",
+            "resBase": "Bubble-1%d.png",
+            "res": "Bubble%s%d%d.png",
+            "projPositionType": 3,
+            "bTowerRotate": true
+          },
+          "idInstruction": 41,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 203,
+      "name": "泡泡塔"
+    },
+    {
+      "resource": "AirBottle",
+      "icon": "02_明文资源/assets/res/towerskin/icon/AirBottle01.png",
+      "iconSha256": "a8b10484d8f140cc80a2a18120a5e72f258d97de9b78fc4b657321541eff53d9",
+      "evidence": {
+        "luac": {
+          "resource": "AirBottle",
+          "constantIndex": 79,
+          "tableInstruction": 42,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "AirBottle",
+            "framecount": 3,
+            "sair": "SAirBottle",
+            "msc": "music/tower/TAirBottle.mp3",
+            "bProjRotate": true,
+            "pvrccz": "tower/TAirBottle.pvr.ccz",
+            "plist": "tower/TAirBottle.plist",
+            "bNeedBoard": true,
+            "spanSecond": 0.04,
+            "rotateduration": 0,
+            "maxlevel": 3,
+            "rotateDegrs": 0,
+            "res": "AirBottle%d%d.png",
+            "projPositionType": 3,
+            "bTowerRotate": true
+          },
+          "idInstruction": 56,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "AirBottle",
+          "constantIndex": 79,
+          "tableInstruction": 42,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "AirBottle",
+            "framecount": 3,
+            "sair": "SAirBottle",
+            "msc": "music/tower/TAirBottle.mp3",
+            "bProjRotate": true,
+            "pvrccz": "tower/TAirBottle.pvr.ccz",
+            "plist": "tower/TAirBottle.plist",
+            "bNeedBoard": true,
+            "spanSecond": 0.04,
+            "rotateduration": 0,
+            "maxlevel": 3,
+            "rotateDegrs": 0,
+            "res": "AirBottle%d%d.png",
+            "projPositionType": 3,
+            "bTowerRotate": true
+          },
+          "idInstruction": 56,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 204,
+      "name": "导弹塔"
+    },
+    {
+      "resource": "FBottle",
+      "icon": "02_明文资源/assets/res/towerskin/icon/FBottle01.png",
+      "iconSha256": "f4d69a482acdc942c4d36f1946692e1a81178bee32fec23d56b4970c5919b26e",
+      "evidence": {
+        "luac": {
+          "resource": "FBottle",
+          "constantIndex": 77,
+          "tableInstruction": 57,
+          "resourceConfig": {
+            "plist": "tower/TFirebottle.plist",
+            "name": "FBottle",
+            "framecount": 3,
+            "pvrccz": "tower/TFirebottle.pvr.ccz",
+            "maxlevel": 3,
+            "bProjRotate": true,
+            "msc": "music/tower/TFirebottle.mp3",
+            "interval": 1,
+            "spanSecond": 0.05,
+            "res": "FBottle%d%d.png",
+            "resAttri": "PFBottle%d%d.png",
+            "projPositionType": 4,
+            "projFlySpeed": 80000000,
+            "bTowerRotate": true,
+            "bNeedBoard": true
+          },
+          "idInstruction": 66,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "FBottle",
+          "constantIndex": 77,
+          "tableInstruction": 57,
+          "resourceConfig": {
+            "plist": "tower/TFirebottle.plist",
+            "name": "FBottle",
+            "framecount": 3,
+            "pvrccz": "tower/TFirebottle.pvr.ccz",
+            "maxlevel": 3,
+            "bProjRotate": true,
+            "msc": "music/tower/TFirebottle.mp3",
+            "interval": 1,
+            "spanSecond": 0.05,
+            "res": "FBottle%d%d.png",
+            "resAttri": "PFBottle%d%d.png",
+            "projPositionType": 4,
+            "projFlySpeed": 80000000,
+            "bTowerRotate": true,
+            "bNeedBoard": true
+          },
+          "idInstruction": 66,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 205,
+      "name": "火瓶子"
+    },
+    {
+      "resource": "Ball",
+      "icon": "02_明文资源/assets/res/towerskin/icon/Ball01.png",
+      "iconSha256": "b831ccd7ee6daaaa509c298f99e975d288b272da8279b923ffbfc5d2fb428e01",
+      "evidence": {
+        "luac": {
+          "resource": "Ball",
+          "constantIndex": 76,
+          "tableInstruction": 67,
+          "resourceConfig": {
+            "plist": "tower/TBall.plist",
+            "name": "Ball",
+            "framecount": 3,
+            "pvrccz": "tower/TBall.pvr.ccz",
+            "maxlevel": 3,
+            "bProjRotate": true,
+            "msc": "music/tower/TBall.mp3",
+            "projFlySpeed": 80000000,
+            "bTowerRotate": false,
+            "res": "Ball%d%d.png",
+            "interval": 1,
+            "projPositionType": 5,
+            "bNeedBoard": true,
+            "spanSecond": 0.05
+          },
+          "idInstruction": 76,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "Ball",
+          "constantIndex": 76,
+          "tableInstruction": 67,
+          "resourceConfig": {
+            "plist": "tower/TBall.plist",
+            "name": "Ball",
+            "framecount": 3,
+            "pvrccz": "tower/TBall.pvr.ccz",
+            "maxlevel": 3,
+            "bProjRotate": true,
+            "msc": "music/tower/TBall.mp3",
+            "projFlySpeed": 80000000,
+            "bTowerRotate": false,
+            "res": "Ball%d%d.png",
+            "interval": 1,
+            "projPositionType": 5,
+            "bNeedBoard": true,
+            "spanSecond": 0.05
+          },
+          "idInstruction": 76,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 206,
+      "name": "魔法球"
+    },
+    {
+      "resource": "Pin",
+      "icon": "02_明文资源/assets/res/towerskin/icon/Pin01.png",
+      "iconSha256": "48261dc218589529d0678394cbc461592ef3a303bf1c1255a77e0b7a32d2514b",
+      "evidence": {
+        "luac": {
+          "resource": "Pin",
+          "constantIndex": 75,
+          "tableInstruction": 77,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Pin",
+            "framecount": 3,
+            "pvrccz": "tower/TPin.pvr.ccz",
+            "msc": "music/tower/TPin.mp3",
+            "bProjRotate": true,
+            "plist": "tower/TPin.plist",
+            "bNeedBoard": true,
+            "spanSecond": 0.04,
+            "bCross": false,
+            "rotateduration": 0,
+            "maxlevel": 3,
+            "rotateDegrs": 0,
+            "res": "Pin%d%d.png",
+            "projPositionType": 3,
+            "bTowerRotate": true
+          },
+          "idInstruction": 88,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "Pin",
+          "constantIndex": 75,
+          "tableInstruction": 77,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Pin",
+            "framecount": 3,
+            "pvrccz": "tower/TPin.pvr.ccz",
+            "msc": "music/tower/TPin.mp3",
+            "bProjRotate": true,
+            "plist": "tower/TPin.plist",
+            "bNeedBoard": true,
+            "spanSecond": 0.04,
+            "bCross": false,
+            "rotateduration": 0,
+            "maxlevel": 3,
+            "rotateDegrs": 0,
+            "res": "Pin%d%d.png",
+            "projPositionType": 3,
+            "bTowerRotate": true
+          },
+          "idInstruction": 88,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 207,
+      "name": "毒针塔"
+    },
+    {
+      "resource": "Arrow",
+      "icon": "02_明文资源/assets/res/towerskin/icon/Arrow01.png",
+      "iconSha256": "3015cdb38d4ffc6ed010f973888a4b7c27dc8e1fa3dbe458fc0c31805b718470",
+      "evidence": {
+        "luac": {
+          "resource": "Arrow",
+          "constantIndex": 74,
+          "tableInstruction": 89,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Arrow",
+            "framecount": 3,
+            "pvrccz": "tower/TArrow.pvr.ccz",
+            "msc": "music/tower/TArrow.mp3",
+            "bProjRotate": true,
+            "plist": "tower/TArrow.plist",
+            "bNeedBoard": true,
+            "spanSecond": 0.05,
+            "rotateduration": 0,
+            "maxlevel": 3,
+            "rotateDegrs": 0,
+            "res": "Arrow%d%d.png",
+            "projPositionType": 1,
+            "bTowerRotate": true
+          },
+          "idInstruction": 100,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "Arrow",
+          "constantIndex": 74,
+          "tableInstruction": 89,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Arrow",
+            "framecount": 3,
+            "pvrccz": "tower/TArrow.pvr.ccz",
+            "msc": "music/tower/TArrow.mp3",
+            "bProjRotate": true,
+            "plist": "tower/TArrow.plist",
+            "bNeedBoard": true,
+            "spanSecond": 0.05,
+            "rotateduration": 0,
+            "maxlevel": 3,
+            "rotateDegrs": 0,
+            "res": "Arrow%d%d.png",
+            "projPositionType": 1,
+            "bTowerRotate": true
+          },
+          "idInstruction": 100,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 208,
+      "name": "多重箭"
+    },
+    {
+      "resource": "Anchor",
+      "icon": "02_明文资源/assets/res/towerskin/icon/Anchor01.png",
+      "iconSha256": "620e3d3b9ed42e4cb7f347c3873b5f9504bd25c4f4c075af50915affaba1d55e",
+      "evidence": {
+        "luac": {
+          "resource": "Anchor",
+          "constantIndex": 73,
+          "tableInstruction": 101,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Anchor",
+            "framecount": 3,
+            "pvrccz": "tower/TAnchor.pvr.ccz",
+            "msc": "music/tower/TAnchor.mp3",
+            "bProjRotate": true,
+            "plist": "tower/TAnchor.plist",
+            "bNeedBoard": true,
+            "spanSecond": 0.04,
+            "bCross": false,
+            "rotateduration": 0,
+            "maxlevel": 3,
+            "rotateDegrs": 0,
+            "res": "Anchor%d%d.png",
+            "projPositionType": 1,
+            "bTowerRotate": true
+          },
+          "idInstruction": 115,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "Anchor",
+          "constantIndex": 73,
+          "tableInstruction": 101,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Anchor",
+            "framecount": 3,
+            "pvrccz": "tower/TAnchor.pvr.ccz",
+            "msc": "music/tower/TAnchor.mp3",
+            "bProjRotate": true,
+            "plist": "tower/TAnchor.plist",
+            "bNeedBoard": true,
+            "spanSecond": 0.04,
+            "bCross": false,
+            "rotateduration": 0,
+            "maxlevel": 3,
+            "rotateDegrs": 0,
+            "res": "Anchor%d%d.png",
+            "projPositionType": 1,
+            "bTowerRotate": true
+          },
+          "idInstruction": 115,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 209,
+      "name": "船锚"
+    },
+    {
+      "resource": "SnowBall",
+      "icon": "02_明文资源/assets/res/towerskin/icon/SnowBall01.png",
+      "iconSha256": "77a26d34ce7828464272e6679b80b2623541530d4d65139095b24ed819064626",
+      "evidence": {
+        "luac": {
+          "resource": "SnowBall",
+          "constantIndex": 71,
+          "tableInstruction": 116,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "SnowBall",
+            "framecount": 3,
+            "pvrccz": "tower/TSnowBall.pvr.ccz",
+            "msc": "music/tower/TSnowBall.mp3",
+            "bProjRotate": true,
+            "plist": "tower/TSnowBall.plist",
+            "bNeedBoard": true,
+            "spanSecond": 0.04,
+            "rotateduration": 0,
+            "maxlevel": 3,
+            "rotateDegrs": 0,
+            "res": "SnowBall%d%d.png",
+            "projPositionType": 3,
+            "bTowerRotate": true
+          },
+          "idInstruction": 127,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "SnowBall",
+          "constantIndex": 71,
+          "tableInstruction": 116,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "SnowBall",
+            "framecount": 3,
+            "pvrccz": "tower/TSnowBall.pvr.ccz",
+            "msc": "music/tower/TSnowBall.mp3",
+            "bProjRotate": true,
+            "plist": "tower/TSnowBall.plist",
+            "bNeedBoard": true,
+            "spanSecond": 0.04,
+            "rotateduration": 0,
+            "maxlevel": 3,
+            "rotateDegrs": 0,
+            "res": "SnowBall%d%d.png",
+            "projPositionType": 3,
+            "bTowerRotate": true
+          },
+          "idInstruction": 127,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 210,
+      "name": "雪球"
+    },
+    {
+      "resource": "Torpedo",
+      "icon": "02_明文资源/assets/res/towerskin/icon/Torpedo01.png",
+      "iconSha256": "a4f3c5fe6214ea29b3e329a3ec8933e812a0617d16becc1c64995cf1a972167f",
+      "evidence": {
+        "luac": {
+          "resource": "Torpedo",
+          "constantIndex": 70,
+          "tableInstruction": 128,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Torpedo",
+            "framecount": 3,
+            "msc": "music/tower/TTorpedo.mp3",
+            "resBase": "DTorpedo1%d.png",
+            "bProjRotate": true,
+            "pvrccz": "tower/TTorpedo.pvr.ccz",
+            "plist": "tower/TTorpedo.plist",
+            "bNeedBoard": false,
+            "resD": "DDTorpedo%d%d.png",
+            "spanSecond": 0.04,
+            "bCross": false,
+            "rotateduration": 0,
+            "maxlevel": 3,
+            "rotateDegrs": 0,
+            "res": "Torpedo%d%d.png",
+            "projPositionType": 3,
+            "bTowerRotate": true
+          },
+          "idInstruction": 139,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "Torpedo",
+          "constantIndex": 70,
+          "tableInstruction": 128,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Torpedo",
+            "framecount": 3,
+            "msc": "music/tower/TTorpedo.mp3",
+            "resBase": "DTorpedo1%d.png",
+            "bProjRotate": true,
+            "pvrccz": "tower/TTorpedo.pvr.ccz",
+            "plist": "tower/TTorpedo.plist",
+            "bNeedBoard": false,
+            "resD": "DDTorpedo%d%d.png",
+            "spanSecond": 0.04,
+            "bCross": false,
+            "rotateduration": 0,
+            "maxlevel": 3,
+            "rotateDegrs": 0,
+            "res": "Torpedo%d%d.png",
+            "projPositionType": 3,
+            "bTowerRotate": true
+          },
+          "idInstruction": 139,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 211,
+      "name": "鱼雷"
+    },
+    {
+      "resource": "Mine",
+      "icon": "02_明文资源/assets/res/towerskin/icon/Mine01.png",
+      "iconSha256": "d961646d847ba565f8712892827ae396a9ecd3a6f4cf9863161c55a21778a82b",
+      "evidence": {
+        "luac": {
+          "resource": "Mine",
+          "constantIndex": 69,
+          "tableInstruction": 140,
+          "resourceConfig": {
+            "name": "Mine",
+            "framecount": 3,
+            "plist": "tower/TMine.plist",
+            "maxlevel": 3,
+            "bProjRotate": true,
+            "pvrccz": "tower/TMine.pvr.ccz",
+            "bTowerRotate": false,
+            "interval": 1,
+            "res": "Mine%d%d.png",
+            "bNeedBoard": false,
+            "projPositionType": 1,
+            "spanSecond": 0.05
+          },
+          "idInstruction": 151,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "Mine",
+          "constantIndex": 69,
+          "tableInstruction": 140,
+          "resourceConfig": {
+            "name": "Mine",
+            "framecount": 3,
+            "plist": "tower/TMine.plist",
+            "maxlevel": 3,
+            "bProjRotate": true,
+            "pvrccz": "tower/TMine.pvr.ccz",
+            "bTowerRotate": false,
+            "interval": 1,
+            "res": "Mine%d%d.png",
+            "bNeedBoard": false,
+            "projPositionType": 1,
+            "spanSecond": 0.05
+          },
+          "idInstruction": 151,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 212,
+      "name": "水雷"
+    },
+    {
+      "resource": "Rocket",
+      "icon": "02_明文资源/assets/res/towerskin/icon/Rocket01.png",
+      "iconSha256": "761c10449ec239597f63288c5784110cbf2d2d3e8f9674f6ba579d80e1dfbea1",
+      "evidence": {
+        "luac": {
+          "resource": "Rocket",
+          "constantIndex": 68,
+          "tableInstruction": 152,
+          "resourceConfig": {
+            "plist": "tower/TRocket.plist",
+            "name": "Rocket",
+            "framecount": 3,
+            "pvrccz": "tower/TRocket.pvr.ccz",
+            "maxlevel": 3,
+            "bProjRotate": true,
+            "msc": "music/tower/TRocket.mp3",
+            "spanSecond": 0.05,
+            "res": "Rocket%d%d.png",
+            "bCross": true,
+            "projPositionType": 1,
+            "bNeedBoard": true,
+            "bTowerRotate": true
+          },
+          "idInstruction": 163,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "Rocket",
+          "constantIndex": 68,
+          "tableInstruction": 152,
+          "resourceConfig": {
+            "plist": "tower/TRocket.plist",
+            "name": "Rocket",
+            "framecount": 3,
+            "pvrccz": "tower/TRocket.pvr.ccz",
+            "maxlevel": 3,
+            "bProjRotate": true,
+            "msc": "music/tower/TRocket.mp3",
+            "spanSecond": 0.05,
+            "res": "Rocket%d%d.png",
+            "bCross": true,
+            "projPositionType": 1,
+            "bNeedBoard": true,
+            "bTowerRotate": true
+          },
+          "idInstruction": 163,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 213,
+      "name": "火箭"
+    },
+    {
+      "resource": "Sun",
+      "icon": "02_明文资源/assets/res/towerskin/icon/Sun01.png",
+      "iconSha256": "2b1886eaaa9a4418e5069955caf9782b3fc7f74e6092c1ff780941cdd673985b",
+      "evidence": {
+        "luac": {
+          "resource": "Sun",
+          "constantIndex": 67,
+          "tableInstruction": 164,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Sun",
+            "framecount": 3,
+            "res_illu": "Sun-1%d.png",
+            "msc": "music/tower/TSun.mp3",
+            "bProjRotate": false,
+            "pvrccz": "tower/TSun.pvr.ccz",
+            "plist": "tower/TSun.plist",
+            "bNeedBoard": true,
+            "spanSecond": 0.05,
+            "maxlevel": 3,
+            "rotateDegrs": 16,
+            "res": "Sun%d%d.png",
+            "projPositionType": 1,
+            "bTowerRotate": false
+          },
+          "idInstruction": 175,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "Sun",
+          "constantIndex": 67,
+          "tableInstruction": 164,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Sun",
+            "framecount": 3,
+            "res_illu": "Sun-1%d.png",
+            "msc": "music/tower/TSun.mp3",
+            "bProjRotate": false,
+            "pvrccz": "tower/TSun.pvr.ccz",
+            "plist": "tower/TSun.plist",
+            "bNeedBoard": true,
+            "spanSecond": 0.05,
+            "maxlevel": 3,
+            "rotateDegrs": 16,
+            "res": "Sun%d%d.png",
+            "projPositionType": 1,
+            "bTowerRotate": false
+          },
+          "idInstruction": 175,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 214,
+      "name": "太阳花"
+    },
+    {
+      "resource": "Thunder",
+      "icon": "02_明文资源/assets/res/towerskin/icon/Thunder01.png",
+      "iconSha256": "38849773ad06ea24ecc5a9d1dc53f71ee72b0682b98decab954a08b521ca64dc",
+      "evidence": {
+        "luac": {
+          "resource": "Thunder",
+          "constantIndex": 66,
+          "tableInstruction": 176,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Thunder",
+            "framecount": 3,
+            "pvrccz": "tower/TThunder.pvr.ccz",
+            "msc": "music/tower/TThunder.mp3",
+            "bProjRotate": true,
+            "sair": "SThunder",
+            "plist": "tower/TThunder.plist",
+            "bNeedBoard": true,
+            "spanSecond": 0.04,
+            "bCross": false,
+            "rotateduration": 0,
+            "maxlevel": 3,
+            "rotateDegrs": 0,
+            "res": "Thunder%d%d.png",
+            "projPositionType": 3,
+            "elecArcframecount": 4,
+            "bTowerRotate": true
+          },
+          "idInstruction": 187,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "Thunder",
+          "constantIndex": 66,
+          "tableInstruction": 176,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Thunder",
+            "framecount": 3,
+            "pvrccz": "tower/TThunder.pvr.ccz",
+            "msc": "music/tower/TThunder.mp3",
+            "bProjRotate": true,
+            "sair": "SThunder",
+            "plist": "tower/TThunder.plist",
+            "bNeedBoard": true,
+            "spanSecond": 0.04,
+            "bCross": false,
+            "rotateduration": 0,
+            "maxlevel": 3,
+            "rotateDegrs": 0,
+            "res": "Thunder%d%d.png",
+            "projPositionType": 3,
+            "elecArcframecount": 4,
+            "bTowerRotate": true
+          },
+          "idInstruction": 187,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 215,
+      "name": "闪电炮"
+    },
+    {
+      "resource": "Sniper",
+      "icon": "02_明文资源/assets/res/towerskin/icon/Sniper01.png",
+      "iconSha256": "dac60d1e28b0832732ce5b315e22764e75b7eaa5c15356daf901fcaabe8dad9b",
+      "evidence": {
+        "luac": {
+          "resource": "Sniper",
+          "constantIndex": 65,
+          "tableInstruction": 188,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Sniper",
+            "framecount": 4,
+            "pvrccz": "tower/TSniper.pvr.ccz",
+            "msc": "music/tower/TSniper.mp3",
+            "bProjRotate": true,
+            "plist": "tower/TSniper.plist",
+            "bNeedBoard": true,
+            "spanSecond": 0.04,
+            "bCross": false,
+            "rotateduration": 0,
+            "maxlevel": 3,
+            "rotateDegrs": 0,
+            "res": "Sniper%d%d.png",
+            "projPositionType": 3,
+            "bTowerRotate": true
+          },
+          "idInstruction": 199,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "Sniper",
+          "constantIndex": 65,
+          "tableInstruction": 188,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Sniper",
+            "framecount": 4,
+            "pvrccz": "tower/TSniper.pvr.ccz",
+            "msc": "music/tower/TSniper.mp3",
+            "bProjRotate": true,
+            "plist": "tower/TSniper.plist",
+            "bNeedBoard": true,
+            "spanSecond": 0.04,
+            "bCross": false,
+            "rotateduration": 0,
+            "maxlevel": 3,
+            "rotateDegrs": 0,
+            "res": "Sniper%d%d.png",
+            "projPositionType": 3,
+            "bTowerRotate": true
+          },
+          "idInstruction": 199,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 216,
+      "name": "雷达"
+    },
+    {
+      "resource": "Moon",
+      "icon": "02_明文资源/assets/res/towerskin/icon/Moon01.png",
+      "iconSha256": "77e895b9c1997713e1b903404f8b403bb92aae6392721e190ba5a46574cbd344",
+      "evidence": {
+        "luac": {
+          "resource": "Moon",
+          "constantIndex": 64,
+          "tableInstruction": 200,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Moon",
+            "framecount": 4,
+            "sair": "SMoon",
+            "msc": "music/tower/TMoon.mp3",
+            "bProjRotate": true,
+            "pvrccz": "tower/TMoon.pvr.ccz",
+            "plist": "tower/TMoon.plist",
+            "bNeedBoard": true,
+            "spanSecond": 0.05,
+            "maxlevel": 3,
+            "rotateDegrs": 0,
+            "res": "Moon%d%d.png",
+            "projPositionType": 1,
+            "bTowerRotate": false
+          },
+          "idInstruction": 214,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "Moon",
+          "constantIndex": 64,
+          "tableInstruction": 200,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Moon",
+            "framecount": 4,
+            "sair": "SMoon",
+            "msc": "music/tower/TMoon.mp3",
+            "bProjRotate": true,
+            "pvrccz": "tower/TMoon.pvr.ccz",
+            "plist": "tower/TMoon.plist",
+            "bNeedBoard": true,
+            "spanSecond": 0.05,
+            "maxlevel": 3,
+            "rotateDegrs": 0,
+            "res": "Moon%d%d.png",
+            "projPositionType": 1,
+            "bTowerRotate": false
+          },
+          "idInstruction": 214,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 217,
+      "name": "月亮"
+    },
+    {
+      "resource": "SStar",
+      "icon": "02_明文资源/assets/res/towerskin/icon/SStar01.png",
+      "iconSha256": "40d6eb4eed76e02d4ff19076ed424c37cfe04d7650d4738118ddbe7880900a34",
+      "evidence": {
+        "luac": {
+          "resource": "SStar",
+          "constantIndex": 63,
+          "tableInstruction": 215,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "SStar",
+            "framecount": 2,
+            "sair": "SSStar",
+            "msc": "music/tower/TSstar.mp3",
+            "bProjRotate": true,
+            "pvrccz": "tower/TSstar.pvr.ccz",
+            "plist": "tower/TSstar.plist",
+            "bNeedBoard": true,
+            "spanSecond": 0.04,
+            "rotateduration": 0,
+            "maxlevel": 3,
+            "rotateDegrs": 0,
+            "res": "SStar%d%d.png",
+            "projPositionType": 1,
+            "bTowerRotate": false
+          },
+          "idInstruction": 229,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "SStar",
+          "constantIndex": 63,
+          "tableInstruction": 215,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "SStar",
+            "framecount": 2,
+            "sair": "SSStar",
+            "msc": "music/tower/TSstar.mp3",
+            "bProjRotate": true,
+            "pvrccz": "tower/TSstar.pvr.ccz",
+            "plist": "tower/TSstar.plist",
+            "bNeedBoard": true,
+            "spanSecond": 0.04,
+            "rotateduration": 0,
+            "maxlevel": 3,
+            "rotateDegrs": 0,
+            "res": "SStar%d%d.png",
+            "projPositionType": 1,
+            "bTowerRotate": false
+          },
+          "idInstruction": 229,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 218,
+      "name": "星星"
+    },
+    {
+      "resource": "Firecracker",
+      "icon": "02_明文资源/assets/res/towerskin/icon/Firecracker01.png",
+      "iconSha256": "e74758a5af671679835eca433cac50d3273412da48d85f0965e900756f51fcbf",
+      "evidence": {
+        "luac": {
+          "resource": "Firecracker",
+          "constantIndex": 62,
+          "tableInstruction": 230,
+          "resourceConfig": {
+            "plist": "tower/TFirecracker.plist",
+            "name": "Firecracker",
+            "framecount": 3,
+            "pvrccz": "tower/TFirecracker.pvr.ccz",
+            "maxlevel": 3,
+            "bProjRotate": true,
+            "msc": "music/tower/PFirecracker.mp3",
+            "spanSecond": 0.05,
+            "res": "Firecracker%d%d.png",
+            "bCross": false,
+            "projPositionType": 1,
+            "bNeedBoard": true,
+            "bTowerRotate": true,
+            "interval": 1
+          },
+          "idInstruction": 241,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "Firecracker",
+          "constantIndex": 62,
+          "tableInstruction": 230,
+          "resourceConfig": {
+            "plist": "tower/TFirecracker.plist",
+            "name": "Firecracker",
+            "framecount": 3,
+            "pvrccz": "tower/TFirecracker.pvr.ccz",
+            "maxlevel": 3,
+            "bProjRotate": true,
+            "msc": "music/tower/PFirecracker.mp3",
+            "spanSecond": 0.05,
+            "res": "Firecracker%d%d.png",
+            "bCross": false,
+            "projPositionType": 1,
+            "bNeedBoard": true,
+            "bTowerRotate": true,
+            "interval": 1
+          },
+          "idInstruction": 241,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 219,
+      "name": "炮仗"
+    },
+    {
+      "resource": "Shit",
+      "icon": "02_明文资源/assets/res/towerskin/icon/Shit01.png",
+      "iconSha256": "ebdada136be27333164124f3416540c5cf6b0e3a109396e68fa6ab38b840e4b2",
+      "evidence": {
+        "luac": {
+          "resource": "Shit",
+          "constantIndex": 61,
+          "tableInstruction": 242,
+          "resourceConfig": {
+            "plist": "tower/TShit.plist",
+            "name": "Shit",
+            "framecount": 3,
+            "pvrccz": "tower/TShit.pvr.ccz",
+            "maxlevel": 3,
+            "bProjRotate": true,
+            "msc": "music/tower/TShit.mp3",
+            "spanSecond": 0.05,
+            "res": "Shit%d%d.png",
+            "bCross": false,
+            "projPositionType": 3,
+            "bNeedBoard": true,
+            "bTowerRotate": false
+          },
+          "idInstruction": 253,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "Shit",
+          "constantIndex": 61,
+          "tableInstruction": 242,
+          "resourceConfig": {
+            "plist": "tower/TShit.plist",
+            "name": "Shit",
+            "framecount": 3,
+            "pvrccz": "tower/TShit.pvr.ccz",
+            "maxlevel": 3,
+            "bProjRotate": true,
+            "msc": "music/tower/TShit.mp3",
+            "spanSecond": 0.05,
+            "res": "Shit%d%d.png",
+            "bCross": false,
+            "projPositionType": 3,
+            "bNeedBoard": true,
+            "bTowerRotate": false
+          },
+          "idInstruction": 253,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 220,
+      "name": "便便"
+    },
+    {
+      "resource": "Cornucopia",
+      "icon": "02_明文资源/assets/res/towerskin/icon/Cornucopia01.png",
+      "iconSha256": "8c305ef440b605ed1854ee56b38f7b6d85425c9ead7427933c3fe7ab0bd1459d",
+      "evidence": {
+        "luac": {
+          "resource": "Cornucopia",
+          "constantIndex": 60,
+          "tableInstruction": 254,
+          "resourceConfig": {
+            "plist": "tower/TCornucopia.plist",
+            "name": "Cornucopia",
+            "framecount": 3,
+            "pvrccz": "tower/TCornucopia.pvr.ccz",
+            "maxlevel": 3,
+            "bProjRotate": false,
+            "msc": "music/tower/PCornucopia.mp3",
+            "spanSecond": 0.05,
+            "res": "Cornucopia%d%d.png",
+            "rotateDegrs": 0,
+            "projPositionType": 1,
+            "interval": 1,
+            "bTowerRotate": false,
+            "bNeedBoard": true
+          },
+          "idInstruction": 265,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "Cornucopia",
+          "constantIndex": 60,
+          "tableInstruction": 254,
+          "resourceConfig": {
+            "plist": "tower/TCornucopia.plist",
+            "name": "Cornucopia",
+            "framecount": 3,
+            "pvrccz": "tower/TCornucopia.pvr.ccz",
+            "maxlevel": 3,
+            "bProjRotate": false,
+            "msc": "music/tower/PCornucopia.mp3",
+            "spanSecond": 0.05,
+            "res": "Cornucopia%d%d.png",
+            "rotateDegrs": 0,
+            "projPositionType": 1,
+            "interval": 1,
+            "bTowerRotate": false,
+            "bNeedBoard": true
+          },
+          "idInstruction": 265,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 221,
+      "name": "聚宝盆"
+    },
+    {
+      "resource": "Fish",
+      "icon": "02_明文资源/assets/res/towerskin/icon/Fish01.png",
+      "iconSha256": "7a2e44431dd70af5c3e272e61085b9b3a41b89123d1fd45295c74a82ed62db12",
+      "evidence": {
+        "luac": {
+          "resource": "Fish",
+          "constantIndex": 59,
+          "tableInstruction": 266,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Fish",
+            "framecount": 3,
+            "pvrccz": "tower/TFish.pvr.ccz",
+            "msc": "music/tower/TFish.mp3",
+            "bProjRotate": true,
+            "plist": "tower/TFish.plist",
+            "bNeedBoard": true,
+            "spanSecond": 0.04,
+            "bCross": false,
+            "rotateduration": 0,
+            "maxlevel": 3,
+            "rotateDegrs": 0,
+            "res": "Fish%d%d.png",
+            "projPositionType": 3,
+            "bTowerRotate": true
+          },
+          "idInstruction": 277,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "Fish",
+          "constantIndex": 59,
+          "tableInstruction": 266,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Fish",
+            "framecount": 3,
+            "pvrccz": "tower/TFish.pvr.ccz",
+            "msc": "music/tower/TFish.mp3",
+            "bProjRotate": true,
+            "plist": "tower/TFish.plist",
+            "bNeedBoard": true,
+            "spanSecond": 0.04,
+            "bCross": false,
+            "rotateduration": 0,
+            "maxlevel": 3,
+            "rotateDegrs": 0,
+            "res": "Fish%d%d.png",
+            "projPositionType": 3,
+            "bTowerRotate": true
+          },
+          "idInstruction": 277,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 222,
+      "name": "鱼骨头"
+    },
+    {
+      "resource": "Boomerang",
+      "icon": "02_明文资源/assets/res/towerskin/icon/Boomerang01.png",
+      "iconSha256": "bcba4f012687d3513e6351462ab64d03b7bc06f0cd78fd77a56519e1d9d70d61",
+      "evidence": {
+        "luac": {
+          "resource": "Boomerang",
+          "constantIndex": 58,
+          "tableInstruction": 278,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Boomerang",
+            "framecount": 3,
+            "msc": "music/tower/TBoomerang.mp3",
+            "pvrccz": "tower/TBoomerang.pvr.ccz",
+            "bProjRotate": true,
+            "plist": "tower/TBoomerang.plist",
+            "bNeedBoard": true,
+            "spanSecond": 0.04,
+            "bCross": true,
+            "rotateduration": 0,
+            "resGroove": "Boomerang-2%d.png",
+            "maxlevel": 3,
+            "rotateDegrs": 0,
+            "res": "Boomerang%d%d.png",
+            "projPositionType": 1,
+            "bTowerRotate": true
+          },
+          "idInstruction": 289,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "Boomerang",
+          "constantIndex": 58,
+          "tableInstruction": 278,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Boomerang",
+            "framecount": 3,
+            "msc": "music/tower/TBoomerang.mp3",
+            "pvrccz": "tower/TBoomerang.pvr.ccz",
+            "bProjRotate": true,
+            "plist": "tower/TBoomerang.plist",
+            "bNeedBoard": true,
+            "spanSecond": 0.04,
+            "bCross": true,
+            "rotateduration": 0,
+            "resGroove": "Boomerang-2%d.png",
+            "maxlevel": 3,
+            "rotateDegrs": 0,
+            "res": "Boomerang%d%d.png",
+            "projPositionType": 1,
+            "bTowerRotate": true
+          },
+          "idInstruction": 289,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 223,
+      "name": "回旋镖"
+    },
+    {
+      "resource": "IceGun",
+      "icon": "02_明文资源/assets/res/towerskin/icon/IceGun01.png",
+      "iconSha256": "86790878901a2d804880652179de481f9cb428e87020a12055d7a933a9f91d9c",
+      "evidence": {
+        "luac": {
+          "resource": "IceGun",
+          "constantIndex": 57,
+          "tableInstruction": 290,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "IceGun",
+            "framecount": 3,
+            "plist": "tower/TIceGun.plist",
+            "msc": "music/tower/TIceGun.mp3",
+            "bProjRotate": true,
+            "pvrccz": "tower/TIceGun.pvr.ccz",
+            "bNeedBoard": true,
+            "spanSecond": 0.04,
+            "bCross": false,
+            "rotateduration": 0,
+            "maxlevel": 3,
+            "rotateDegrs": 0,
+            "res": "IceGun%d%d.png",
+            "projPositionType": 3,
+            "bTowerRotate": true
+          },
+          "idInstruction": 301,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "IceGun",
+          "constantIndex": 57,
+          "tableInstruction": 290,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "IceGun",
+            "framecount": 3,
+            "plist": "tower/TIceGun.plist",
+            "msc": "music/tower/TIceGun.mp3",
+            "bProjRotate": true,
+            "pvrccz": "tower/TIceGun.pvr.ccz",
+            "bNeedBoard": true,
+            "spanSecond": 0.04,
+            "bCross": false,
+            "rotateduration": 0,
+            "maxlevel": 3,
+            "rotateDegrs": 0,
+            "res": "IceGun%d%d.png",
+            "projPositionType": 3,
+            "bTowerRotate": true
+          },
+          "idInstruction": 301,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 224,
+      "name": "冰锥"
+    },
+    {
+      "resource": "Plane",
+      "icon": "02_明文资源/assets/res/towerskin/icon/Plane01.png",
+      "iconSha256": "6d9b6ffa5546e39ab4698ac0cbe41da34b243aaaf9c44a0abdaeeb4c87452215",
+      "evidence": {
+        "luac": {
+          "resource": "Plane",
+          "constantIndex": 56,
+          "tableInstruction": 302,
+          "resourceConfig": {
+            "plist": "tower/TPlane.plist",
+            "name": "Plane",
+            "framecount": 3,
+            "pvrccz": "tower/TPlane.pvr.ccz",
+            "maxlevel": 3,
+            "bProjRotate": false,
+            "msc": "music/tower/TPlane.mp3",
+            "spanSecond": 0.05,
+            "res": "Plane%d%d.png",
+            "bCross": false,
+            "projPositionType": 5,
+            "interval": 1,
+            "bTowerRotate": true,
+            "bNeedBoard": true
+          },
+          "idInstruction": 313,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "Plane",
+          "constantIndex": 56,
+          "tableInstruction": 302,
+          "resourceConfig": {
+            "plist": "tower/TPlane.plist",
+            "name": "Plane",
+            "framecount": 3,
+            "pvrccz": "tower/TPlane.pvr.ccz",
+            "maxlevel": 3,
+            "bProjRotate": false,
+            "msc": "music/tower/TPlane.mp3",
+            "spanSecond": 0.05,
+            "res": "Plane%d%d.png",
+            "bCross": false,
+            "projPositionType": 5,
+            "interval": 1,
+            "bTowerRotate": true,
+            "bNeedBoard": true
+          },
+          "idInstruction": 313,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 225,
+      "name": "飞机"
+    },
+    {
+      "resource": "FlashLight",
+      "icon": "02_明文资源/assets/res/towerskin/icon/FlashLight01.png",
+      "iconSha256": "87bb3fd3d6594db8be03a4554500ee837f24f06bca13af09edfab2a80fa638d7",
+      "evidence": {
+        "luac": {
+          "resource": "FlashLight",
+          "constantIndex": 55,
+          "tableInstruction": 314,
+          "resourceConfig": {
+            "plist": "tower/TFlashLight.plist",
+            "name": "FlashLight",
+            "framecount": 4,
+            "pvrccz": "tower/TFlashLight.pvr.ccz",
+            "maxlevel": 3,
+            "bProjRotate": true,
+            "msc": "music/tower/TFlashLight.mp3",
+            "spanSecond": 0.05,
+            "res": "FlashLight%d%d.png",
+            "resEx": "FlashLight_Shake%d%d.png",
+            "projPositionType": 4,
+            "bCross": false,
+            "bTowerRotate": true,
+            "bNeedBoard": true
+          },
+          "idInstruction": 325,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "FlashLight",
+          "constantIndex": 55,
+          "tableInstruction": 314,
+          "resourceConfig": {
+            "plist": "tower/TFlashLight.plist",
+            "name": "FlashLight",
+            "framecount": 4,
+            "pvrccz": "tower/TFlashLight.pvr.ccz",
+            "maxlevel": 3,
+            "bProjRotate": true,
+            "msc": "music/tower/TFlashLight.mp3",
+            "spanSecond": 0.05,
+            "res": "FlashLight%d%d.png",
+            "resEx": "FlashLight_Shake%d%d.png",
+            "projPositionType": 4,
+            "bCross": false,
+            "bTowerRotate": true,
+            "bNeedBoard": true
+          },
+          "idInstruction": 325,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 226,
+      "name": "手电筒"
+    },
+    {
+      "resource": "Bomb",
+      "icon": "02_明文资源/assets/res/towerskin/icon/Bomb01.png",
+      "iconSha256": "8cbf99527f842d14bd21bb641329df87263024194a8b63fc51adf939173a7df8",
+      "evidence": {
+        "luac": {
+          "resource": "Bomb",
+          "constantIndex": 54,
+          "tableInstruction": 326,
+          "resourceConfig": {
+            "msc": "music/tower/TBomb.mp3",
+            "name": "Bomb",
+            "framecount": 3,
+            "pvrccz": "tower/TBomb.pvr.ccz",
+            "plist": "tower/TBomb.plist",
+            "bProjRotate": true,
+            "bNeedBoard": true,
+            "spanSecond": 0.05,
+            "bCross": false,
+            "rotateduration": 0,
+            "maxlevel": 3,
+            "rotateDegrs": 0,
+            "res": "Bomb%d%d.png",
+            "projPositionType": 1,
+            "bTowerRotate": true
+          },
+          "idInstruction": 337,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "Bomb",
+          "constantIndex": 54,
+          "tableInstruction": 326,
+          "resourceConfig": {
+            "msc": "music/tower/TBomb.mp3",
+            "name": "Bomb",
+            "framecount": 3,
+            "pvrccz": "tower/TBomb.pvr.ccz",
+            "plist": "tower/TBomb.plist",
+            "bProjRotate": true,
+            "bNeedBoard": true,
+            "spanSecond": 0.05,
+            "bCross": false,
+            "rotateduration": 0,
+            "maxlevel": 3,
+            "rotateDegrs": 0,
+            "res": "Bomb%d%d.png",
+            "projPositionType": 1,
+            "bTowerRotate": true
+          },
+          "idInstruction": 337,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 227,
+      "name": "保龄球"
+    },
+    {
+      "resource": "FlameThrower",
+      "icon": "02_明文资源/assets/res/towerskin/icon/FlameThrower01.png",
+      "iconSha256": "b9a716d15c849d3fd6e53ea01ae5676d406135394b897ace6c3e35523e2423e5",
+      "evidence": {
+        "luac": {
+          "resource": "FlameThrower",
+          "constantIndex": 53,
+          "tableInstruction": 338,
+          "resourceConfig": {
+            "msc": "music/tower/TFlameThrower.mp3",
+            "name": "FlameThrower",
+            "framecount": 3,
+            "pvrccz": "tower/TFlameThrower.pvr.ccz",
+            "plist": "tower/TFlameThrower.plist",
+            "bProjRotate": false,
+            "bNeedBoard": true,
+            "spanSecond": 0.02,
+            "bCross": false,
+            "rotateduration": 0,
+            "maxlevel": 3,
+            "rotateDegrs": 0,
+            "res": "FlameThrower%d%d.png",
+            "projPositionType": 4,
+            "bTowerRotate": true
+          },
+          "idInstruction": 349,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "FlameThrower",
+          "constantIndex": 53,
+          "tableInstruction": 338,
+          "resourceConfig": {
+            "msc": "music/tower/TFlameThrower.mp3",
+            "name": "FlameThrower",
+            "framecount": 3,
+            "pvrccz": "tower/TFlameThrower.pvr.ccz",
+            "plist": "tower/TFlameThrower.plist",
+            "bProjRotate": false,
+            "bNeedBoard": true,
+            "spanSecond": 0.02,
+            "bCross": false,
+            "rotateduration": 0,
+            "maxlevel": 3,
+            "rotateDegrs": 0,
+            "res": "FlameThrower%d%d.png",
+            "projPositionType": 4,
+            "bTowerRotate": true
+          },
+          "idInstruction": 349,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 228,
+      "name": "喷火器"
+    },
+    {
+      "resource": "Cuttle",
+      "icon": "02_明文资源/assets/res/towerskin/icon/Cuttle01.png",
+      "iconSha256": "858108b6698fbc52cd39fd575a37d39e549bd9159d7db900ee00301029c3b859",
+      "evidence": {
+        "luac": {
+          "resource": "Cuttle",
+          "constantIndex": 52,
+          "tableInstruction": 350,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Cuttle",
+            "framecount": 3,
+            "plist": "tower/TCuttle.plist",
+            "maxlevel": 3,
+            "bProjRotate": true,
+            "msc": "music/tower/TCuttle.mp3",
+            "pvrccz": "tower/TCuttle.pvr.ccz",
+            "bNeedBoard": true,
+            "res": "Cuttle%d%d.png",
+            "spanSecond": 0.05,
+            "projPositionType": 1,
+            "bTowerRotate": false
+          },
+          "idInstruction": 361,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "Cuttle",
+          "constantIndex": 52,
+          "tableInstruction": 350,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Cuttle",
+            "framecount": 3,
+            "plist": "tower/TCuttle.plist",
+            "maxlevel": 3,
+            "bProjRotate": true,
+            "msc": "music/tower/TCuttle.mp3",
+            "pvrccz": "tower/TCuttle.pvr.ccz",
+            "bNeedBoard": true,
+            "res": "Cuttle%d%d.png",
+            "spanSecond": 0.05,
+            "projPositionType": 1,
+            "bTowerRotate": false
+          },
+          "idInstruction": 361,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 229,
+      "name": "章鱼"
+    },
+    {
+      "resource": "Snow",
+      "icon": "02_明文资源/assets/res/towerskin/icon/Snow01.png",
+      "iconSha256": "497484dbc8c40eb5b8d05a26ccbed920220259d6c20db3ba5262bb2582108063",
+      "evidence": {
+        "luac": {
+          "resource": "Snow",
+          "constantIndex": 51,
+          "tableInstruction": 362,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Snow",
+            "framecount": 3,
+            "plist": "tower/TSnow.plist",
+            "maxlevel": 3,
+            "bProjRotate": false,
+            "msc": "music/tower/TSnow.mp3",
+            "pvrccz": "tower/TSnow.pvr.ccz",
+            "bNeedBoard": true,
+            "res": "Snow%d%d.png",
+            "spanSecond": 0.05,
+            "projPositionType": 1,
+            "bTowerRotate": false
+          },
+          "idInstruction": 373,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "Snow",
+          "constantIndex": 51,
+          "tableInstruction": 362,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Snow",
+            "framecount": 3,
+            "plist": "tower/TSnow.plist",
+            "maxlevel": 3,
+            "bProjRotate": false,
+            "msc": "music/tower/TSnow.mp3",
+            "pvrccz": "tower/TSnow.pvr.ccz",
+            "bNeedBoard": true,
+            "res": "Snow%d%d.png",
+            "spanSecond": 0.05,
+            "projPositionType": 1,
+            "bTowerRotate": false
+          },
+          "idInstruction": 373,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 230,
+      "name": "雪花"
+    },
+    {
+      "resource": "TableTennis",
+      "icon": "02_明文资源/assets/res/towerskin/icon/TableTennis01.png",
+      "iconSha256": "f57f0b2e7491286c8523fb548f97da4eedf5b06e79988094fc12af1018283852",
+      "evidence": {
+        "luac": {
+          "resource": "TableTennis",
+          "constantIndex": 50,
+          "tableInstruction": 374,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "TableTennis",
+            "framecount": 3,
+            "plist": "tower/TTableTennis.plist",
+            "maxlevel": 3,
+            "bProjRotate": true,
+            "msc": "music/tower/TTableTennis.mp3",
+            "pvrccz": "tower/TTableTennis.pvr.ccz",
+            "bNeedBoard": true,
+            "res": "TableTennis%d%d.png",
+            "bCross": false,
+            "projPositionType": 1,
+            "spanSecond": 0.04,
+            "bTowerRotate": true
+          },
+          "idInstruction": 385,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "TableTennis",
+          "constantIndex": 50,
+          "tableInstruction": 374,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "TableTennis",
+            "framecount": 3,
+            "plist": "tower/TTableTennis.plist",
+            "maxlevel": 3,
+            "bProjRotate": true,
+            "msc": "music/tower/TTableTennis.mp3",
+            "pvrccz": "tower/TTableTennis.pvr.ccz",
+            "bNeedBoard": true,
+            "res": "TableTennis%d%d.png",
+            "bCross": false,
+            "projPositionType": 1,
+            "spanSecond": 0.04,
+            "bTowerRotate": true
+          },
+          "idInstruction": 385,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 231,
+      "name": "乒乓球"
+    },
+    {
+      "resource": "Tortoise",
+      "icon": "02_明文资源/assets/res/towerskin/icon/Tortoise01.png",
+      "iconSha256": "8a3b6a6125cd689d69106907b86a2e99c18364d5e7e120d509312fd8cfb27b75",
+      "evidence": {
+        "luac": {
+          "resource": "Tortoise",
+          "constantIndex": 49,
+          "tableInstruction": 386,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Tortoise",
+            "framecount": 3,
+            "bNeedBoard": true,
+            "pvrccz": "tower/TTortoise.pvr.ccz",
+            "bProjRotate": true,
+            "plist": "tower/TTortoise.plist",
+            "spanSecond": 0.04,
+            "bCross": true,
+            "resGroove": "Tortoise%d1a.png",
+            "maxlevel": 3,
+            "msc": "music/tower/TTortoise.mp3",
+            "res": "Tortoise%d%d.png",
+            "projPositionType": 1,
+            "bTowerRotate": true
+          },
+          "idInstruction": 397,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "Tortoise",
+          "constantIndex": 49,
+          "tableInstruction": 386,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Tortoise",
+            "framecount": 3,
+            "bNeedBoard": true,
+            "pvrccz": "tower/TTortoise.pvr.ccz",
+            "bProjRotate": true,
+            "plist": "tower/TTortoise.plist",
+            "spanSecond": 0.04,
+            "bCross": true,
+            "resGroove": "Tortoise%d1a.png",
+            "maxlevel": 3,
+            "msc": "music/tower/TTortoise.mp3",
+            "res": "Tortoise%d%d.png",
+            "projPositionType": 1,
+            "bTowerRotate": true
+          },
+          "idInstruction": 397,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 232,
+      "name": "小乌龟"
+    },
+    {
+      "resource": "Poisonfog",
+      "icon": "02_明文资源/assets/res/towerskin/icon/Poisonfog01.png",
+      "iconSha256": "89d9c92e7039aa43fbede3607e08094d70d72defb9f2247a5ef12d88489fac05",
+      "evidence": {
+        "luac": {
+          "resource": "Poisonfog",
+          "constantIndex": 48,
+          "tableInstruction": 398,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Poisonfog",
+            "framecount": 3,
+            "plist": "tower/TPoisonfog.plist",
+            "maxlevel": 3,
+            "bProjRotate": false,
+            "msc": "music/tower/TPoisonfog.mp3",
+            "pvrccz": "tower/TPoisonfog.pvr.ccz",
+            "bNeedBoard": true,
+            "res": "Poisonfog%d%d.png",
+            "bCross": false,
+            "projPositionType": 1,
+            "spanSecond": 0.04,
+            "bTowerRotate": false
+          },
+          "idInstruction": 409,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "Poisonfog",
+          "constantIndex": 48,
+          "tableInstruction": 398,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Poisonfog",
+            "framecount": 3,
+            "plist": "tower/TPoisonfog.plist",
+            "maxlevel": 3,
+            "bProjRotate": false,
+            "msc": "music/tower/TPoisonfog.mp3",
+            "pvrccz": "tower/TPoisonfog.pvr.ccz",
+            "bNeedBoard": true,
+            "res": "Poisonfog%d%d.png",
+            "bCross": false,
+            "projPositionType": 1,
+            "spanSecond": 0.04,
+            "bTowerRotate": false
+          },
+          "idInstruction": 409,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 233,
+      "name": "毒气瓶"
+    },
+    {
+      "resource": "Cathode",
+      "icon": "02_明文资源/assets/res/towerskin/icon/Cathode01.png",
+      "iconSha256": "2e397e53364aafb726b7b5e7fdfaa1cf5b8b9af20329f0f00f1c5ca126606d7a",
+      "evidence": {
+        "luac": {
+          "resource": "Cathode",
+          "constantIndex": 47,
+          "tableInstruction": 410,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Cathode",
+            "framecount": 3,
+            "plist": "tower/TCathode.plist",
+            "maxlevel": 3,
+            "bProjRotate": false,
+            "msc": "music/tower/TCathode.mp3",
+            "pvrccz": "tower/TCathode.pvr.ccz",
+            "bNeedBoard": true,
+            "res": "Cathode%d%d.png",
+            "bCross": true,
+            "projPositionType": 1,
+            "spanSecond": 0.04,
+            "bTowerRotate": false
+          },
+          "idInstruction": 421,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "Cathode",
+          "constantIndex": 47,
+          "tableInstruction": 410,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Cathode",
+            "framecount": 3,
+            "plist": "tower/TCathode.plist",
+            "maxlevel": 3,
+            "bProjRotate": false,
+            "msc": "music/tower/TCathode.mp3",
+            "pvrccz": "tower/TCathode.pvr.ccz",
+            "bNeedBoard": true,
+            "res": "Cathode%d%d.png",
+            "bCross": true,
+            "projPositionType": 1,
+            "spanSecond": 0.04,
+            "bTowerRotate": false
+          },
+          "idInstruction": 421,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 234,
+      "name": "负电塔"
+    },
+    {
+      "resource": "Ninjastar",
+      "icon": "02_明文资源/assets/res/towerskin/icon/Ninjastar01.png",
+      "iconSha256": "b770c76691fec430bed9625c2836b5b1fdb8869a1d61bae65e346a1d56a1e564",
+      "evidence": {
+        "luac": {
+          "resource": "Ninjastar",
+          "constantIndex": 46,
+          "tableInstruction": 422,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Ninjastar",
+            "framecount": 3,
+            "plist": "tower/TNinjastar.plist",
+            "maxlevel": 3,
+            "bProjRotate": false,
+            "msc": "music/tower/TNinjastar.mp3",
+            "pvrccz": "tower/TNinjastar.pvr.ccz",
+            "bNeedBoard": true,
+            "res": "Ninjastar%d%d.png",
+            "bCross": false,
+            "projPositionType": 1,
+            "spanSecond": 0.04,
+            "bTowerRotate": false
+          },
+          "idInstruction": 433,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "Ninjastar",
+          "constantIndex": 46,
+          "tableInstruction": 422,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Ninjastar",
+            "framecount": 3,
+            "plist": "tower/TNinjastar.plist",
+            "maxlevel": 3,
+            "bProjRotate": false,
+            "msc": "music/tower/TNinjastar.mp3",
+            "pvrccz": "tower/TNinjastar.pvr.ccz",
+            "bNeedBoard": true,
+            "res": "Ninjastar%d%d.png",
+            "bCross": false,
+            "projPositionType": 1,
+            "spanSecond": 0.04,
+            "bTowerRotate": false
+          },
+          "idInstruction": 433,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 235,
+      "name": "忍者镖"
+    },
+    {
+      "resource": "Bowkbot",
+      "icon": "02_明文资源/assets/res/towerskin/icon/Bowkbot01.png",
+      "iconSha256": "3b82038b5a4d1c101b330f857fc32559dc43eeb5ceff0ce0c6c59124181b49c2",
+      "evidence": {
+        "luac": {
+          "resource": "Bowkbot",
+          "constantIndex": 45,
+          "tableInstruction": 434,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Bowkbot",
+            "framecount": 3,
+            "msc": "music/tower/TBowkbot.mp3",
+            "pvrccz": "tower/TBowkbot.pvr.ccz",
+            "bProjRotate": true,
+            "plist": "tower/TBowkbot.plist",
+            "bNeedBoard": true,
+            "spanSecond": 0.04,
+            "bCross": true,
+            "rotateduration": 0,
+            "resGroove": "Bowkbot-2%d.png",
+            "maxlevel": 3,
+            "rotateDegrs": 0,
+            "res": "Bowkbot%d%d.png",
+            "projPositionType": 1,
+            "bTowerRotate": true
+          },
+          "idInstruction": 445,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "Bowkbot",
+          "constantIndex": 45,
+          "tableInstruction": 434,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Bowkbot",
+            "framecount": 3,
+            "msc": "music/tower/TBowkbot.mp3",
+            "pvrccz": "tower/TBowkbot.pvr.ccz",
+            "bProjRotate": true,
+            "plist": "tower/TBowkbot.plist",
+            "bNeedBoard": true,
+            "spanSecond": 0.04,
+            "bCross": true,
+            "rotateduration": 0,
+            "resGroove": "Bowkbot-2%d.png",
+            "maxlevel": 3,
+            "rotateDegrs": 0,
+            "res": "Bowkbot%d%d.png",
+            "projPositionType": 1,
+            "bTowerRotate": true
+          },
+          "idInstruction": 445,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 236,
+      "name": "蝴蝶结"
+    },
+    {
+      "resource": "Egg",
+      "icon": "02_明文资源/assets/res/towerskin/icon/Egg01.png",
+      "iconSha256": "442a3539e8eced63d8cdde900fdbd7961424ab63ef659df076fb8efe1d9be32d",
+      "evidence": {
+        "luac": {
+          "resource": "Egg",
+          "constantIndex": 44,
+          "tableInstruction": 446,
+          "resourceConfig": {
+            "msc": "music/tower/TEgg.mp3",
+            "name": "Egg",
+            "framecount": 3,
+            "pvrccz": "tower/TEgg.pvr.ccz",
+            "plist": "tower/TEgg.plist",
+            "bProjRotate": true,
+            "bNeedBoard": true,
+            "spanSecond": 0.05,
+            "bCross": false,
+            "rotateduration": 0,
+            "maxlevel": 3,
+            "rotateDegrs": 0,
+            "res": "Egg%d%d.png",
+            "projPositionType": 1,
+            "bTowerRotate": false
+          },
+          "idInstruction": 457,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "Egg",
+          "constantIndex": 44,
+          "tableInstruction": 446,
+          "resourceConfig": {
+            "msc": "music/tower/TEgg.mp3",
+            "name": "Egg",
+            "framecount": 3,
+            "pvrccz": "tower/TEgg.pvr.ccz",
+            "plist": "tower/TEgg.plist",
+            "bProjRotate": true,
+            "bNeedBoard": true,
+            "spanSecond": 0.05,
+            "bCross": false,
+            "rotateduration": 0,
+            "maxlevel": 3,
+            "rotateDegrs": 0,
+            "res": "Egg%d%d.png",
+            "projPositionType": 1,
+            "bTowerRotate": false
+          },
+          "idInstruction": 457,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 237,
+      "name": "大鸡蛋"
+    },
+    {
+      "resource": "Anode",
+      "icon": "02_明文资源/assets/res/towerskin/icon/Anode01.png",
+      "iconSha256": "03093d2ea7c555f51bd2b9c1119f6052073e84a7d2c1dcfa911952b600366693",
+      "evidence": {
+        "luac": {
+          "resource": "Anode",
+          "constantIndex": 43,
+          "tableInstruction": 458,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Anode",
+            "framecount": 3,
+            "plist": "tower/TAnode.plist",
+            "maxlevel": 3,
+            "bProjRotate": false,
+            "msc": "music/tower/TAnode.mp3",
+            "pvrccz": "tower/TAnode.pvr.ccz",
+            "bNeedBoard": true,
+            "res": "Anode%d%d.png",
+            "bCross": true,
+            "projPositionType": 5,
+            "spanSecond": 0.04,
+            "bTowerRotate": false
+          },
+          "idInstruction": 469,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "Anode",
+          "constantIndex": 43,
+          "tableInstruction": 458,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Anode",
+            "framecount": 3,
+            "plist": "tower/TAnode.plist",
+            "maxlevel": 3,
+            "bProjRotate": false,
+            "msc": "music/tower/TAnode.mp3",
+            "pvrccz": "tower/TAnode.pvr.ccz",
+            "bNeedBoard": true,
+            "res": "Anode%d%d.png",
+            "bCross": true,
+            "projPositionType": 5,
+            "spanSecond": 0.04,
+            "bTowerRotate": false
+          },
+          "idInstruction": 469,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 238,
+      "name": "正电塔"
+    },
+    {
+      "resource": "Magnet",
+      "icon": "02_明文资源/assets/res/towerskin/icon/Magnet01.png",
+      "iconSha256": "5a83779c8a12f7ff0c44c43108dd415ef5916b3540313855ec8519b15c692b55",
+      "evidence": {
+        "luac": {
+          "resource": "Magnet",
+          "constantIndex": 42,
+          "tableInstruction": 470,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Magnet",
+            "framecount": 3,
+            "plist": "tower/TMagnet.plist",
+            "maxlevel": 3,
+            "bProjRotate": true,
+            "msc": "music/tower/TMagnet.mp3",
+            "pvrccz": "tower/TMagnet.pvr.ccz",
+            "bNeedBoard": true,
+            "res": "Magnet%d%d.png",
+            "bCross": false,
+            "projPositionType": 1,
+            "spanSecond": 0.04,
+            "bTowerRotate": false
+          },
+          "idInstruction": 481,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "Magnet",
+          "constantIndex": 42,
+          "tableInstruction": 470,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Magnet",
+            "framecount": 3,
+            "plist": "tower/TMagnet.plist",
+            "maxlevel": 3,
+            "bProjRotate": true,
+            "msc": "music/tower/TMagnet.mp3",
+            "pvrccz": "tower/TMagnet.pvr.ccz",
+            "bNeedBoard": true,
+            "res": "Magnet%d%d.png",
+            "bCross": false,
+            "projPositionType": 1,
+            "spanSecond": 0.04,
+            "bTowerRotate": false
+          },
+          "idInstruction": 481,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 239,
+      "name": "磁铁"
+    },
+    {
+      "resource": "PaperPlane",
+      "icon": "02_明文资源/assets/res/towerskin/icon/PaperPlane01.png",
+      "iconSha256": "5edefb83deeb3f628b6b7653b82aaa9c715ce0495dc51c69422874a3420de64d",
+      "evidence": {
+        "luac": {
+          "resource": "PaperPlane",
+          "constantIndex": 41,
+          "tableInstruction": 482,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "PaperPlane",
+            "framecount": 3,
+            "plist": "tower/TPaperPlane.plist",
+            "maxlevel": 3,
+            "bProjRotate": true,
+            "msc": "music/tower/TPaperPlane.mp3",
+            "pvrccz": "tower/TPaperPlane.pvr.ccz",
+            "bNeedBoard": true,
+            "res": "PaperPlane%d%d.png",
+            "bCross": false,
+            "projPositionType": 1,
+            "spanSecond": 0.04,
+            "bTowerRotate": true
+          },
+          "idInstruction": 493,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "PaperPlane",
+          "constantIndex": 41,
+          "tableInstruction": 482,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "PaperPlane",
+            "framecount": 3,
+            "plist": "tower/TPaperPlane.plist",
+            "maxlevel": 3,
+            "bProjRotate": true,
+            "msc": "music/tower/TPaperPlane.mp3",
+            "pvrccz": "tower/TPaperPlane.pvr.ccz",
+            "bNeedBoard": true,
+            "res": "PaperPlane%d%d.png",
+            "bCross": false,
+            "projPositionType": 1,
+            "spanSecond": 0.04,
+            "bTowerRotate": true
+          },
+          "idInstruction": 493,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 240,
+      "name": "纸飞机"
+    },
+    {
+      "resource": "Card",
+      "icon": "02_明文资源/assets/res/towerskin/icon/Card01.png",
+      "iconSha256": "89c95b97e779a5b6d821822e5527d20d4e7dbd7ac55cfc279c4e2de5651b035b",
+      "evidence": {
+        "luac": {
+          "resource": "Card",
+          "constantIndex": 40,
+          "tableInstruction": 494,
+          "resourceConfig": {
+            "pvrccz": "tower/TCard.pvr.ccz",
+            "name": "Card",
+            "framecount": 3,
+            "res_illu": "Card1_%d1.png",
+            "msc": "music/tower/TCard.mp3",
+            "bProjRotate": true,
+            "resBase": "Card-1%d.png",
+            "plist": "tower/TCard.plist",
+            "bNeedBoard": true,
+            "spanSecond": 0.05,
+            "bCross": false,
+            "rotateduration": 0,
+            "maxlevel": 3,
+            "resTower": "Card3_%d1.png",
+            "rotateDegrs": 0,
+            "res": "Card%d_%d%d.png",
+            "projPositionType": 1,
+            "bTowerRotate": true
+          },
+          "idInstruction": 505,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "Card",
+          "constantIndex": 40,
+          "tableInstruction": 494,
+          "resourceConfig": {
+            "pvrccz": "tower/TCard.pvr.ccz",
+            "name": "Card",
+            "framecount": 3,
+            "res_illu": "Card1_%d1.png",
+            "msc": "music/tower/TCard.mp3",
+            "bProjRotate": true,
+            "resBase": "Card-1%d.png",
+            "plist": "tower/TCard.plist",
+            "bNeedBoard": true,
+            "spanSecond": 0.05,
+            "bCross": false,
+            "rotateduration": 0,
+            "maxlevel": 3,
+            "resTower": "Card3_%d1.png",
+            "rotateDegrs": 0,
+            "res": "Card%d_%d%d.png",
+            "projPositionType": 1,
+            "bTowerRotate": true
+          },
+          "idInstruction": 505,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 241,
+      "name": "卡牌"
+    },
+    {
+      "resource": "SmallBell",
+      "icon": "02_明文资源/assets/res/towerskin/icon/SmallBell01.png",
+      "iconSha256": "ad07d37fbe8626f7470b7db55c425527a1bca70f52d2a23c60fce77c29b4b697",
+      "evidence": {
+        "luac": {
+          "resource": "SmallBell",
+          "constantIndex": 39,
+          "tableInstruction": 506,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "SmallBell",
+            "framecount": 3,
+            "msc": "music/tower/TSmallBell.mp3",
+            "pvrccz": "tower/TSmallBell.pvr.ccz",
+            "bProjRotate": false,
+            "bTowerRotate": false,
+            "plist": "tower/TSmallBell.plist",
+            "bNeedBoard": true,
+            "sRes": "SSmallBell0%d.png",
+            "spanSecond": 0.05,
+            "maxlevel": 3,
+            "rotateDegrs": 0,
+            "res": "SmallBell%d%d.png",
+            "projPositionType": 1,
+            "gRes": "GSmallBell%d%d.png"
+          },
+          "idInstruction": 517,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "SmallBell",
+          "constantIndex": 39,
+          "tableInstruction": 506,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "SmallBell",
+            "framecount": 3,
+            "msc": "music/tower/TSmallBell.mp3",
+            "pvrccz": "tower/TSmallBell.pvr.ccz",
+            "bProjRotate": false,
+            "bTowerRotate": false,
+            "plist": "tower/TSmallBell.plist",
+            "bNeedBoard": true,
+            "sRes": "SSmallBell0%d.png",
+            "spanSecond": 0.05,
+            "maxlevel": 3,
+            "rotateDegrs": 0,
+            "res": "SmallBell%d%d.png",
+            "projPositionType": 1,
+            "gRes": "GSmallBell%d%d.png"
+          },
+          "idInstruction": 517,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 242,
+      "name": "小铃铛"
+    },
+    {
+      "resource": "Dice",
+      "icon": "02_明文资源/assets/res/towerskin/icon/Dice01.png",
+      "iconSha256": "2b7d5947689ccd46638ff923bd7a3b245443a12267e1343943a58900205365b7",
+      "evidence": {
+        "luac": {
+          "resource": "Dice",
+          "constantIndex": 38,
+          "tableInstruction": 518,
+          "resourceConfig": {
+            "interval": 1,
+            "rollFrameCount": 10,
+            "framecount": 1,
+            "plist": "tower/TDice.plist",
+            "rollRes": "Dice%d_%d.png",
+            "bProjRotate": false,
+            "pvrccz": "tower/TDice.pvr.ccz",
+            "name": "Dice",
+            "spanSecond": 0.1,
+            "bNeedBoard": true,
+            "maxlevel": 3,
+            "msc": "music/tower/TDice.mp3",
+            "res": "Dice%d%d.png",
+            "projPositionType": 1,
+            "bTowerRotate": false
+          },
+          "idInstruction": 529,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "Dice",
+          "constantIndex": 38,
+          "tableInstruction": 518,
+          "resourceConfig": {
+            "interval": 1,
+            "rollFrameCount": 10,
+            "framecount": 1,
+            "plist": "tower/TDice.plist",
+            "rollRes": "Dice%d_%d.png",
+            "bProjRotate": false,
+            "pvrccz": "tower/TDice.pvr.ccz",
+            "name": "Dice",
+            "spanSecond": 0.1,
+            "bNeedBoard": true,
+            "maxlevel": 3,
+            "msc": "music/tower/TDice.mp3",
+            "res": "Dice%d%d.png",
+            "projPositionType": 1,
+            "bTowerRotate": false
+          },
+          "idInstruction": 529,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 243,
+      "name": "骰子"
+    },
+    {
+      "resource": "Rocker",
+      "icon": "02_明文资源/assets/res/towerskin/icon/Rocker01.png",
+      "iconSha256": "c94f84ad459d6cc273886e0edd9498474f83d5ae26bceb843953ff83f4f51e9d",
+      "evidence": {
+        "luac": {
+          "resource": "Rocker",
+          "constantIndex": 37,
+          "tableInstruction": 530,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Rocker",
+            "framecount": 3,
+            "plist": "tower/TRocker.plist",
+            "maxlevel": 3,
+            "bProjRotate": false,
+            "msc": "music/tower/TRocker.mp3",
+            "pvrccz": "tower/TRocker.pvr.ccz",
+            "bNeedBoard": true,
+            "res": "Rocker%d%d.png",
+            "bCross": false,
+            "projPositionType": 1,
+            "spanSecond": 0.04,
+            "bTowerRotate": false
+          },
+          "idInstruction": 541,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "Rocker",
+          "constantIndex": 37,
+          "tableInstruction": 530,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Rocker",
+            "framecount": 3,
+            "plist": "tower/TRocker.plist",
+            "maxlevel": 3,
+            "bProjRotate": false,
+            "msc": "music/tower/TRocker.mp3",
+            "pvrccz": "tower/TRocker.pvr.ccz",
+            "bNeedBoard": true,
+            "res": "Rocker%d%d.png",
+            "bCross": false,
+            "projPositionType": 1,
+            "spanSecond": 0.04,
+            "bTowerRotate": false
+          },
+          "idInstruction": 541,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 244,
+      "name": "摇杆"
+    },
+    {
+      "resource": "Glove",
+      "icon": "02_明文资源/assets/res/towerskin/icon/Glove01.png",
+      "iconSha256": "60d70faae25b39b5445de236a43baaafd04747d816f2ebc1c49b6d36929c7a9f",
+      "evidence": {
+        "luac": {
+          "resource": "Glove",
+          "constantIndex": 36,
+          "tableInstruction": 542,
+          "resourceConfig": {
+            "msc": "music/tower/TGlove.mp3",
+            "name": "Glove",
+            "framecount": 1,
+            "pvrccz": "tower/TGlove.pvr.ccz",
+            "plist": "tower/TGlove.plist",
+            "bProjRotate": false,
+            "bNeedBoard": true,
+            "spanSecond": 0.05,
+            "bCross": false,
+            "rotateduration": 0,
+            "maxlevel": 3,
+            "rotateDegrs": 0,
+            "res": "Glove%d%d.png",
+            "projPositionType": 1,
+            "bTowerRotate": true
+          },
+          "idInstruction": 553,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "Glove",
+          "constantIndex": 36,
+          "tableInstruction": 542,
+          "resourceConfig": {
+            "msc": "music/tower/TGlove.mp3",
+            "name": "Glove",
+            "framecount": 1,
+            "pvrccz": "tower/TGlove.pvr.ccz",
+            "plist": "tower/TGlove.plist",
+            "bProjRotate": false,
+            "bNeedBoard": true,
+            "spanSecond": 0.05,
+            "bCross": false,
+            "rotateduration": 0,
+            "maxlevel": 3,
+            "rotateDegrs": 0,
+            "res": "Glove%d%d.png",
+            "projPositionType": 1,
+            "bTowerRotate": true
+          },
+          "idInstruction": 553,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 245,
+      "name": "拳套"
+    },
+    {
+      "resource": "Puffer",
+      "icon": "02_明文资源/assets/res/towerskin/icon/Puffer01.png",
+      "iconSha256": "038d66c0c38a3e0a19b795997541550d38961f14d3397b32d48c93116757f02c",
+      "evidence": {
+        "luac": {
+          "resource": "Puffer",
+          "constantIndex": 35,
+          "tableInstruction": 554,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Puffer",
+            "framecount": 3,
+            "plist": "tower/TPuffer.plist",
+            "pvrccz": "tower/TPuffer.pvr.ccz",
+            "bProjRotate": true,
+            "bNeedBoard": true,
+            "spanSecond": 0.04,
+            "bCross": false,
+            "maxlevel": 3,
+            "msc": "music/tower/TPuffer.mp3",
+            "res": "Puffer%d%d.png",
+            "projPositionType": 1,
+            "bTowerRotate": false
+          },
+          "idInstruction": 567,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "Puffer",
+          "constantIndex": 35,
+          "tableInstruction": 554,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Puffer",
+            "framecount": 3,
+            "plist": "tower/TPuffer.plist",
+            "pvrccz": "tower/TPuffer.pvr.ccz",
+            "bProjRotate": true,
+            "bNeedBoard": true,
+            "spanSecond": 0.04,
+            "bCross": false,
+            "maxlevel": 3,
+            "msc": "music/tower/TPuffer.mp3",
+            "res": "Puffer%d%d.png",
+            "projPositionType": 1,
+            "bTowerRotate": false
+          },
+          "idInstruction": 567,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 246,
+      "name": "河豚"
+    },
+    {
+      "resource": "IceStar",
+      "icon": "02_明文资源/assets/res/towerskin/icon/IceStar01.png",
+      "iconSha256": "d8185b155010eeb15eb786f8a26a850747cc9d0575cd50c2ae45611b5bb23ab9",
+      "evidence": {
+        "luac": {
+          "resource": "IceStar",
+          "constantIndex": 33,
+          "tableInstruction": 568,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "IceStar",
+            "framecount": 3,
+            "plist": "tower/TIceStar.plist",
+            "maxlevel": 3,
+            "bProjRotate": false,
+            "msc": "music/tower/TBluestar.mp3",
+            "pvrccz": "tower/TIceStar.pvr.ccz",
+            "spanSecond": 0.05,
+            "res": "IStar%d%d.png",
+            "projPositionType": 1,
+            "bCross": true,
+            "bTowerRotate": false,
+            "bNeedBoard": true
+          },
+          "idInstruction": 579,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "IceStar",
+          "constantIndex": 33,
+          "tableInstruction": 568,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "IceStar",
+            "framecount": 3,
+            "plist": "tower/TIceStar.plist",
+            "maxlevel": 3,
+            "bProjRotate": false,
+            "msc": "music/tower/TBluestar.mp3",
+            "pvrccz": "tower/TIceStar.pvr.ccz",
+            "spanSecond": 0.05,
+            "res": "IStar%d%d.png",
+            "projPositionType": 1,
+            "bCross": true,
+            "bTowerRotate": false,
+            "bNeedBoard": true
+          },
+          "idInstruction": 579,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 247,
+      "name": "冰冻星"
+    },
+    {
+      "resource": "Crystal",
+      "icon": "02_明文资源/assets/res/towerskin/icon/Crystal01.png",
+      "iconSha256": "aed3cb3745ee23b9d278186185ee377b63c3baeffe494e200f97db76e0b415ad",
+      "evidence": {
+        "luac": {
+          "resource": "Crystal",
+          "constantIndex": 32,
+          "tableInstruction": 580,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Crystal",
+            "framecount": 3,
+            "plist": "tower/TCrystal.plist",
+            "msc": "music/tower/TCrystal.mp3",
+            "bProjRotate": true,
+            "pvrccz": "tower/TCrystal.pvr.ccz",
+            "bNeedBoard": true,
+            "spanSecond": 0.04,
+            "bCross": false,
+            "rotateduration": 0,
+            "maxlevel": 3,
+            "rotateDegrs": 0,
+            "res": "Crystal%d%d.png",
+            "projPositionType": 3,
+            "bTowerRotate": false
+          },
+          "idInstruction": 591,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "Crystal",
+          "constantIndex": 32,
+          "tableInstruction": 580,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Crystal",
+            "framecount": 3,
+            "plist": "tower/TCrystal.plist",
+            "msc": "music/tower/TCrystal.mp3",
+            "bProjRotate": true,
+            "pvrccz": "tower/TCrystal.pvr.ccz",
+            "bNeedBoard": true,
+            "spanSecond": 0.04,
+            "bCross": false,
+            "rotateduration": 0,
+            "maxlevel": 3,
+            "rotateDegrs": 0,
+            "res": "Crystal%d%d.png",
+            "projPositionType": 3,
+            "bTowerRotate": false
+          },
+          "idInstruction": 591,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 248,
+      "name": "水晶"
+    },
+    {
+      "resource": "Gyroscope",
+      "icon": "02_明文资源/assets/res/towerskin/icon/Gyroscope01.png",
+      "iconSha256": "fcaf2dc61d4bfa00f5f2366a33a23013fe2d3a6275c37622931e8611f7e04a10",
+      "evidence": {
+        "luac": {
+          "resource": "Gyroscope",
+          "constantIndex": 31,
+          "tableInstruction": 592,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Gyroscope",
+            "framecount": 3,
+            "plist": "tower/TGyroscope.plist",
+            "maxlevel": 3,
+            "bProjRotate": false,
+            "msc": "music/tower/TGyroscope.mp3",
+            "pvrccz": "tower/TGyroscope.pvr.ccz",
+            "bNeedBoard": true,
+            "res": "Gyroscope%d%d.png",
+            "bCross": false,
+            "projPositionType": 1,
+            "spanSecond": 0.04,
+            "bTowerRotate": false
+          },
+          "idInstruction": 603,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "Gyroscope",
+          "constantIndex": 31,
+          "tableInstruction": 592,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Gyroscope",
+            "framecount": 3,
+            "plist": "tower/TGyroscope.plist",
+            "maxlevel": 3,
+            "bProjRotate": false,
+            "msc": "music/tower/TGyroscope.mp3",
+            "pvrccz": "tower/TGyroscope.pvr.ccz",
+            "bNeedBoard": true,
+            "res": "Gyroscope%d%d.png",
+            "bCross": false,
+            "projPositionType": 1,
+            "spanSecond": 0.04,
+            "bTowerRotate": false
+          },
+          "idInstruction": 603,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 249,
+      "name": "陀螺"
+    },
+    {
+      "resource": "Clock",
+      "icon": "02_明文资源/assets/res/towerskin/icon/Clock01.png",
+      "iconSha256": "dd77cea074956423c1042602be8ab681b92996cd07d6343bebeba70ab506de2d",
+      "evidence": {
+        "luac": {
+          "resource": "Clock",
+          "constantIndex": 30,
+          "tableInstruction": 604,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Clock",
+            "framecount": 3,
+            "plist": "tower/TClock.plist",
+            "maxlevel": 3,
+            "bProjRotate": false,
+            "msc": "music/tower/TClock.mp3",
+            "pvrccz": "tower/TClock.pvr.ccz",
+            "bNeedBoard": true,
+            "res": "Clock%d%d.png",
+            "bCross": false,
+            "projPositionType": 1,
+            "spanSecond": 0.04,
+            "bTowerRotate": false
+          },
+          "idInstruction": 615,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "Clock",
+          "constantIndex": 30,
+          "tableInstruction": 604,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Clock",
+            "framecount": 3,
+            "plist": "tower/TClock.plist",
+            "maxlevel": 3,
+            "bProjRotate": false,
+            "msc": "music/tower/TClock.mp3",
+            "pvrccz": "tower/TClock.pvr.ccz",
+            "bNeedBoard": true,
+            "res": "Clock%d%d.png",
+            "bCross": false,
+            "projPositionType": 1,
+            "spanSecond": 0.04,
+            "bTowerRotate": false
+          },
+          "idInstruction": 615,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 250,
+      "name": "闹钟"
+    },
+    {
+      "resource": "SodaBottle",
+      "icon": "02_明文资源/assets/res/towerskin/icon/SodaBottle01.png",
+      "iconSha256": "3d395e6733eda2fa5408104cba4e49b6e1c950819064b964ad8e006f59590d6e",
+      "evidence": {
+        "luac": {
+          "resource": "SodaBottle",
+          "constantIndex": 29,
+          "tableInstruction": 616,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "SodaBottle",
+            "framecount": 3,
+            "plist": "tower/TSodaBottle.plist",
+            "maxlevel": 3,
+            "bProjRotate": true,
+            "msc": "music/tower/TSodaBottle.mp3",
+            "pvrccz": "tower/TSodaBottle.pvr.ccz",
+            "spanSecond": 0.05,
+            "res": "SodaBottle%d%d.png",
+            "projFlySpeed": 80000000,
+            "projPositionType": 4,
+            "bNeedBoard": true,
+            "bTowerRotate": true
+          },
+          "idInstruction": 625,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "SodaBottle",
+          "constantIndex": 29,
+          "tableInstruction": 616,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "SodaBottle",
+            "framecount": 3,
+            "plist": "tower/TSodaBottle.plist",
+            "maxlevel": 3,
+            "bProjRotate": true,
+            "msc": "music/tower/TSodaBottle.mp3",
+            "pvrccz": "tower/TSodaBottle.pvr.ccz",
+            "spanSecond": 0.05,
+            "res": "SodaBottle%d%d.png",
+            "projFlySpeed": 80000000,
+            "projPositionType": 4,
+            "bNeedBoard": true,
+            "bTowerRotate": true
+          },
+          "idInstruction": 625,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 251,
+      "name": "汽水瓶"
+    },
+    {
+      "resource": "Frog",
+      "icon": "02_明文资源/assets/res/towerskin/icon/Frog01.png",
+      "iconSha256": "12016e0dea8c8c69bb0dc34bf648b238c2ac8dc068121dcfa32f9981dcc1eb94",
+      "evidence": {
+        "luac": {
+          "resource": "Frog",
+          "constantIndex": 28,
+          "tableInstruction": 626,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Frog",
+            "framecount": 6,
+            "pvrccz": "tower/TFrog.pvr.ccz",
+            "msc": "music/tower/TFrog.mp3",
+            "bProjRotate": false,
+            "plist": "tower/TFrog.plist",
+            "bNeedBoard": true,
+            "spanSecond": 0.04,
+            "bCross": false,
+            "rotateduration": 0,
+            "maxlevel": 3,
+            "rotateDegrs": 0,
+            "res": "Frog%d%d.png",
+            "projPositionType": 4,
+            "bTowerRotate": false
+          },
+          "idInstruction": 637,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "Frog",
+          "constantIndex": 28,
+          "tableInstruction": 626,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Frog",
+            "framecount": 6,
+            "pvrccz": "tower/TFrog.pvr.ccz",
+            "msc": "music/tower/TFrog.mp3",
+            "bProjRotate": false,
+            "plist": "tower/TFrog.plist",
+            "bNeedBoard": true,
+            "spanSecond": 0.04,
+            "bCross": false,
+            "rotateduration": 0,
+            "maxlevel": 3,
+            "rotateDegrs": 0,
+            "res": "Frog%d%d.png",
+            "projPositionType": 4,
+            "bTowerRotate": false
+          },
+          "idInstruction": 637,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 252,
+      "name": "小青蛙"
+    },
+    {
+      "resource": "Tomato",
+      "icon": "02_明文资源/assets/res/towerskin/icon/Tomato01.png",
+      "iconSha256": "c17a46cdcfe98296f8730ca6ce859ea00b27507859fe82674e0e4eb4c9c289a7",
+      "evidence": {
+        "luac": {
+          "resource": "Tomato",
+          "constantIndex": 27,
+          "tableInstruction": 638,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Tomato",
+            "framecount": 3,
+            "pvrccz": "tower/TTomato.pvr.ccz",
+            "bNeedBoard": true,
+            "bProjRotate": false,
+            "plist": "tower/TTomato.plist",
+            "spanSecond": 0.04,
+            "bCross": false,
+            "maxlevel": 3,
+            "resTower": "PGTomato%d6.png",
+            "msc": "music/tower/TTomato.mp3",
+            "res": "Tomato%d%d.png",
+            "resAttri": "PGTomato%d%d.png",
+            "projPositionType": 1,
+            "bTowerRotate": false
+          },
+          "idInstruction": 649,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "Tomato",
+          "constantIndex": 27,
+          "tableInstruction": 638,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Tomato",
+            "framecount": 3,
+            "pvrccz": "tower/TTomato.pvr.ccz",
+            "bNeedBoard": true,
+            "bProjRotate": false,
+            "plist": "tower/TTomato.plist",
+            "spanSecond": 0.04,
+            "bCross": false,
+            "maxlevel": 3,
+            "resTower": "PGTomato%d6.png",
+            "msc": "music/tower/TTomato.mp3",
+            "res": "Tomato%d%d.png",
+            "resAttri": "PGTomato%d%d.png",
+            "projPositionType": 1,
+            "bTowerRotate": false
+          },
+          "idInstruction": 649,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 253,
+      "name": "小番茄"
+    },
+    {
+      "resource": "Petal",
+      "icon": "02_明文资源/assets/res/towerskin/icon/Petal01.png",
+      "iconSha256": "f60e6a8a0acf040fc59078f931ad707cd6e3bf7446834ca4614bd87966131c43",
+      "evidence": {
+        "luac": {
+          "resource": "Petal",
+          "constantIndex": 26,
+          "tableInstruction": 650,
+          "resourceConfig": {
+            "msc": "music/tower/TPetal.mp3",
+            "name": "Petal",
+            "framecount": 3,
+            "pvrccz": "tower/TPetal.pvr.ccz",
+            "plist": "tower/TPetal.plist",
+            "bProjRotate": false,
+            "bNeedBoard": true,
+            "spanSecond": 0.08,
+            "bCross": false,
+            "rotateduration": 0,
+            "maxlevel": 3,
+            "rotateDegrs": 0,
+            "res": "Petal%d%d.png",
+            "projPositionType": 1,
+            "bTowerRotate": false
+          },
+          "idInstruction": 661,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "Petal",
+          "constantIndex": 26,
+          "tableInstruction": 650,
+          "resourceConfig": {
+            "msc": "music/tower/TPetal.mp3",
+            "name": "Petal",
+            "framecount": 3,
+            "pvrccz": "tower/TPetal.pvr.ccz",
+            "plist": "tower/TPetal.plist",
+            "bProjRotate": false,
+            "bNeedBoard": true,
+            "spanSecond": 0.08,
+            "bCross": false,
+            "rotateduration": 0,
+            "maxlevel": 3,
+            "rotateDegrs": 0,
+            "res": "Petal%d%d.png",
+            "projPositionType": 1,
+            "bTowerRotate": false
+          },
+          "idInstruction": 661,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 254,
+      "name": "花瓣"
+    },
+    {
+      "resource": "Darkclouds",
+      "icon": "02_明文资源/assets/res/towerskin/icon/Darkclouds01.png",
+      "iconSha256": "c4a311220705873e1bbb96f65ae4d09e3558e6fd56511e1241e85a7153b54343",
+      "evidence": {
+        "luac": {
+          "resource": "Darkclouds",
+          "constantIndex": 25,
+          "tableInstruction": 662,
+          "resourceConfig": {
+            "msc": "music/tower/TDarkclouds.mp3",
+            "name": "Darkclouds",
+            "framecount": 3,
+            "pvrccz": "tower/TDarkclouds.pvr.ccz",
+            "plist": "tower/TDarkclouds.plist",
+            "bProjRotate": true,
+            "bNeedBoard": true,
+            "spanSecond": 0.08,
+            "bCross": false,
+            "rotateduration": 0,
+            "maxlevel": 3,
+            "rotateDegrs": 0,
+            "res": "Darkclouds%d%d.png",
+            "projPositionType": 1,
+            "bTowerRotate": false
+          },
+          "idInstruction": 673,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "Darkclouds",
+          "constantIndex": 25,
+          "tableInstruction": 662,
+          "resourceConfig": {
+            "msc": "music/tower/TDarkclouds.mp3",
+            "name": "Darkclouds",
+            "framecount": 3,
+            "pvrccz": "tower/TDarkclouds.pvr.ccz",
+            "plist": "tower/TDarkclouds.plist",
+            "bProjRotate": true,
+            "bNeedBoard": true,
+            "spanSecond": 0.08,
+            "bCross": false,
+            "rotateduration": 0,
+            "maxlevel": 3,
+            "rotateDegrs": 0,
+            "res": "Darkclouds%d%d.png",
+            "projPositionType": 1,
+            "bTowerRotate": false
+          },
+          "idInstruction": 673,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 255,
+      "name": "乌云"
+    },
+    {
+      "resource": "Mushroom",
+      "icon": "02_明文资源/assets/res/towerskin/icon/Mushroom01.png",
+      "iconSha256": "f60d2b9c5ce910113295c68ff5e08c55424e76bd0daac3e457fbf010ee014860",
+      "evidence": {
+        "luac": {
+          "resource": "Mushroom",
+          "constantIndex": 24,
+          "tableInstruction": 674,
+          "resourceConfig": {
+            "msc": "music/tower/TMushroom.mp3",
+            "name": "Mushroom",
+            "framecount": 3,
+            "pvrccz": "tower/TMushroom.pvr.ccz",
+            "plist": "tower/TMushroom.plist",
+            "bProjRotate": false,
+            "bNeedBoard": true,
+            "spanSecond": 0.08,
+            "bCross": false,
+            "rotateduration": 0,
+            "maxlevel": 3,
+            "rotateDegrs": 0,
+            "res": "Mushroom%d%d.png",
+            "projPositionType": 1,
+            "bTowerRotate": false
+          },
+          "idInstruction": 685,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "Mushroom",
+          "constantIndex": 24,
+          "tableInstruction": 674,
+          "resourceConfig": {
+            "msc": "music/tower/TMushroom.mp3",
+            "name": "Mushroom",
+            "framecount": 3,
+            "pvrccz": "tower/TMushroom.pvr.ccz",
+            "plist": "tower/TMushroom.plist",
+            "bProjRotate": false,
+            "bNeedBoard": true,
+            "spanSecond": 0.08,
+            "bCross": false,
+            "rotateduration": 0,
+            "maxlevel": 3,
+            "rotateDegrs": 0,
+            "res": "Mushroom%d%d.png",
+            "projPositionType": 1,
+            "bTowerRotate": false
+          },
+          "idInstruction": 685,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 256,
+      "name": "蘑菇"
+    },
+    {
+      "resource": "Fries",
+      "icon": "02_明文资源/assets/res/towerskin/icon/Fries01.png",
+      "iconSha256": "a4328b831dda18f088c806fc14f8de9c12907cffa5a384c432d8244b63724db0",
+      "evidence": {
+        "luac": {
+          "resource": "Fries",
+          "constantIndex": 23,
+          "tableInstruction": 687,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Fries",
+            "framecount": 3,
+            "pvrccz": "tower/TFries.pvr.ccz",
+            "msc": "music/tower/TFries.mp3",
+            "bProjRotate": true,
+            "plist": "tower/TFries.plist",
+            "bNeedBoard": true,
+            "spanSecond": 0.1,
+            "rotateduration": 0,
+            "maxlevel": 3,
+            "rotateDegrs": 0,
+            "res": "Fries%d%d.png",
+            "projPositionType": 1,
+            "bTowerRotate": true
+          },
+          "idInstruction": 698,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "Fries",
+          "constantIndex": 23,
+          "tableInstruction": 687,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Fries",
+            "framecount": 3,
+            "pvrccz": "tower/TFries.pvr.ccz",
+            "msc": "music/tower/TFries.mp3",
+            "bProjRotate": true,
+            "plist": "tower/TFries.plist",
+            "bNeedBoard": true,
+            "spanSecond": 0.1,
+            "rotateduration": 0,
+            "maxlevel": 3,
+            "rotateDegrs": 0,
+            "res": "Fries%d%d.png",
+            "projPositionType": 1,
+            "bTowerRotate": true
+          },
+          "idInstruction": 698,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 257,
+      "name": "薯条"
+    },
+    {
+      "resource": "Missile",
+      "icon": "02_明文资源/assets/res/towerskin/icon/Missile01.png",
+      "iconSha256": "298e073283f98b74c1eb11a6d9743108ad0d7c1229f574f644631805670357a1",
+      "evidence": {
+        "luac": {
+          "resource": "Missile",
+          "constantIndex": 22,
+          "tableInstruction": 700,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Missile",
+            "framecount": 3,
+            "pvrccz": "tower/TMissile.pvr.ccz",
+            "msc": "music/tower/TMissile.mp3",
+            "bProjRotate": true,
+            "plist": "tower/TMissile.plist",
+            "bNeedBoard": true,
+            "spanSecond": 0.04,
+            "rotateduration": 0,
+            "maxlevel": 3,
+            "rotateDegrs": 0,
+            "res": "Missile%d%d.png",
+            "projPositionType": 1,
+            "bTowerRotate": true
+          },
+          "idInstruction": 711,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "Missile",
+          "constantIndex": 22,
+          "tableInstruction": 700,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Missile",
+            "framecount": 3,
+            "pvrccz": "tower/TMissile.pvr.ccz",
+            "msc": "music/tower/TMissile.mp3",
+            "bProjRotate": true,
+            "plist": "tower/TMissile.plist",
+            "bNeedBoard": true,
+            "spanSecond": 0.04,
+            "rotateduration": 0,
+            "maxlevel": 3,
+            "rotateDegrs": 0,
+            "res": "Missile%d%d.png",
+            "projPositionType": 1,
+            "bTowerRotate": true
+          },
+          "idInstruction": 711,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 258,
+      "name": "飞弹"
+    },
+    {
+      "resource": "Mouse",
+      "icon": "02_明文资源/assets/res/towerskin/icon/Mouse01.png",
+      "iconSha256": "c45cfbe166b9ab3b1039fa47d23abb4713b14797b17cbc5827432eeb14d5ba10",
+      "evidence": {
+        "luac": {
+          "resource": "Mouse",
+          "constantIndex": 21,
+          "tableInstruction": 713,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Mouse",
+            "framecount": 3,
+            "pvrccz": "tower/TMouse.pvr.ccz",
+            "msc": "music/tower/TMouse.mp3",
+            "bProjRotate": false,
+            "plist": "tower/TMouse.plist",
+            "bNeedBoard": true,
+            "spanSecond": 0.05,
+            "rotateduration": 0,
+            "maxlevel": 3,
+            "rotateDegrs": 0,
+            "res": "Mouse%d%d.png",
+            "projPositionType": 1,
+            "bTowerRotate": true
+          },
+          "idInstruction": 724,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "Mouse",
+          "constantIndex": 21,
+          "tableInstruction": 713,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Mouse",
+            "framecount": 3,
+            "pvrccz": "tower/TMouse.pvr.ccz",
+            "msc": "music/tower/TMouse.mp3",
+            "bProjRotate": false,
+            "plist": "tower/TMouse.plist",
+            "bNeedBoard": true,
+            "spanSecond": 0.05,
+            "rotateduration": 0,
+            "maxlevel": 3,
+            "rotateDegrs": 0,
+            "res": "Mouse%d%d.png",
+            "projPositionType": 1,
+            "bTowerRotate": true
+          },
+          "idInstruction": 724,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 259,
+      "name": "鼠标塔"
+    },
+    {
+      "resource": "Cat",
+      "icon": "02_明文资源/assets/res/towerskin/icon/Cat01.png",
+      "iconSha256": "7bf9eebef38fa67bef12b35b941da8b04ad3f4c4eee5898b162a0c22ee67d7bd",
+      "evidence": {
+        "luac": {
+          "resource": "Cat",
+          "constantIndex": 20,
+          "tableInstruction": 726,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Cat",
+            "framecount": 5,
+            "pvrccz": "tower/TCat.pvr.ccz",
+            "msc": "music/tower/TCat.mp3",
+            "bProjRotate": true,
+            "plist": "tower/TCat.plist",
+            "bNeedBoard": true,
+            "spanSecond": 0.05,
+            "rotateduration": 0,
+            "maxlevel": 3,
+            "rotateDegrs": 0,
+            "res": "Cat%d%d.png",
+            "projPositionType": 1,
+            "bTowerRotate": false
+          },
+          "idInstruction": 737,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "Cat",
+          "constantIndex": 20,
+          "tableInstruction": 726,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Cat",
+            "framecount": 5,
+            "pvrccz": "tower/TCat.pvr.ccz",
+            "msc": "music/tower/TCat.mp3",
+            "bProjRotate": true,
+            "plist": "tower/TCat.plist",
+            "bNeedBoard": true,
+            "spanSecond": 0.05,
+            "rotateduration": 0,
+            "maxlevel": 3,
+            "rotateDegrs": 0,
+            "res": "Cat%d%d.png",
+            "projPositionType": 1,
+            "bTowerRotate": false
+          },
+          "idInstruction": 737,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 260,
+      "name": "喵喵塔"
+    },
+    {
+      "resource": "Mahjong",
+      "icon": "02_明文资源/assets/res/towerskin/icon/Mahjong01.png",
+      "iconSha256": "3dae9b3270ba985a219a4dca60c8b3afcaf2f7ffc1c6db208333e9e1a3818e63",
+      "evidence": {
+        "luac": {
+          "resource": "Mahjong",
+          "constantIndex": 19,
+          "tableInstruction": 739,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Mahjong",
+            "framecount": 3,
+            "pvrccz": "tower/TMahjong.pvr.ccz",
+            "msc": "music/tower/TMahjong.mp3",
+            "bProjRotate": true,
+            "plist": "tower/TMahjong.plist",
+            "bNeedBoard": true,
+            "spanSecond": 0.05,
+            "rotateduration": 0,
+            "maxlevel": 3,
+            "rotateDegrs": 0,
+            "res": "Rich%d%d.png",
+            "projPositionType": 1,
+            "bTowerRotate": true
+          },
+          "idInstruction": 750,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "Mahjong",
+          "constantIndex": 19,
+          "tableInstruction": 739,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Mahjong",
+            "framecount": 3,
+            "pvrccz": "tower/TMahjong.pvr.ccz",
+            "msc": "music/tower/TMahjong.mp3",
+            "bProjRotate": true,
+            "plist": "tower/TMahjong.plist",
+            "bNeedBoard": true,
+            "spanSecond": 0.05,
+            "rotateduration": 0,
+            "maxlevel": 3,
+            "rotateDegrs": 0,
+            "res": "Rich%d%d.png",
+            "projPositionType": 1,
+            "bTowerRotate": true
+          },
+          "idInstruction": 750,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 261,
+      "name": "發財"
+    },
+    {
+      "resource": "Like",
+      "icon": "02_明文资源/assets/res/towerskin/icon/Like01.png",
+      "iconSha256": "7ccf864d672313d883413b5c89e24c708a9809d91aa7df569a97e4e56afed7d9",
+      "evidence": {
+        "luac": {
+          "resource": "Like",
+          "constantIndex": 18,
+          "tableInstruction": 752,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Like",
+            "framecount": 3,
+            "msc": "music/tower/TLike.mp3",
+            "bProjRotate": false,
+            "plist": "tower/TLike.plist",
+            "bNeedBoard": true,
+            "spanSecond": 0.04,
+            "pvrccz": "tower/TLike.pvr.ccz",
+            "bCross": false,
+            "rotateduration": 0,
+            "maxlevel": 3,
+            "rotateDegrs": 0,
+            "res": "Like%d%d.png",
+            "projPositionType": 1,
+            "bTowerRotate": false
+          },
+          "idInstruction": 770,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "Like",
+          "constantIndex": 18,
+          "tableInstruction": 752,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Like",
+            "framecount": 3,
+            "msc": "music/tower/TLike.mp3",
+            "bProjRotate": false,
+            "plist": "tower/TLike.plist",
+            "bNeedBoard": true,
+            "spanSecond": 0.04,
+            "pvrccz": "tower/TLike.pvr.ccz",
+            "bCross": false,
+            "rotateduration": 0,
+            "maxlevel": 3,
+            "rotateDegrs": 0,
+            "res": "Like%d%d.png",
+            "projPositionType": 1,
+            "bTowerRotate": false
+          },
+          "idInstruction": 770,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 262,
+      "name": "三连塔"
+    },
+    {
+      "resource": "Bird",
+      "icon": "02_明文资源/assets/res/towerskin/icon/Bird01.png",
+      "iconSha256": "8658db51557e6fa88aed9f843a3038582392aba947ec9e34b4e4eca2ee07bf2a",
+      "evidence": {
+        "luac": {
+          "resource": "Bird",
+          "constantIndex": 15,
+          "tableInstruction": 772,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Bird",
+            "framecount": 3,
+            "plist": "tower/TBird.plist",
+            "pvrccz": "tower/TBird.pvr.ccz",
+            "bProjRotate": true,
+            "bNeedBoard": true,
+            "spanSecond": 0.04,
+            "bCross": false,
+            "maxlevel": 3,
+            "msc": "music/tower/TBird.mp3",
+            "res": "Bird%d%d.png",
+            "projPositionType": 1,
+            "bTowerRotate": false
+          },
+          "idInstruction": 785,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "Bird",
+          "constantIndex": 15,
+          "tableInstruction": 772,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Bird",
+            "framecount": 3,
+            "plist": "tower/TBird.plist",
+            "pvrccz": "tower/TBird.pvr.ccz",
+            "bProjRotate": true,
+            "bNeedBoard": true,
+            "spanSecond": 0.04,
+            "bCross": false,
+            "maxlevel": 3,
+            "msc": "music/tower/TBird.mp3",
+            "res": "Bird%d%d.png",
+            "projPositionType": 1,
+            "bTowerRotate": false
+          },
+          "idInstruction": 785,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 263,
+      "name": "小肥啾"
+    },
+    {
+      "resource": "Slippers",
+      "icon": "02_明文资源/assets/res/towerskin/icon/Slippers01.png",
+      "iconSha256": "830566d13ed02e90c17e9a5b287e6a3f9cf259fe58beb9aa90347a6a468ef5f1",
+      "evidence": {
+        "luac": {
+          "resource": "Slippers",
+          "constantIndex": 13,
+          "tableInstruction": 787,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Slippers",
+            "framecount": 3,
+            "bNeedBoard": true,
+            "pvrccz": "tower/TSlippers.pvr.ccz",
+            "bProjRotate": true,
+            "plist": "tower/TSlippers.plist",
+            "spanSecond": 0.05,
+            "bCross": false,
+            "resGroove": "Slippers-2%d.png",
+            "maxlevel": 3,
+            "msc": "music/tower/TSlippers.mp3",
+            "res": "Slippers%d%d.png",
+            "projPositionType": 3,
+            "bTowerRotate": true
+          },
+          "idInstruction": 798,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "Slippers",
+          "constantIndex": 13,
+          "tableInstruction": 787,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Slippers",
+            "framecount": 3,
+            "bNeedBoard": true,
+            "pvrccz": "tower/TSlippers.pvr.ccz",
+            "bProjRotate": true,
+            "plist": "tower/TSlippers.plist",
+            "spanSecond": 0.05,
+            "bCross": false,
+            "resGroove": "Slippers-2%d.png",
+            "maxlevel": 3,
+            "msc": "music/tower/TSlippers.mp3",
+            "res": "Slippers%d%d.png",
+            "projPositionType": 3,
+            "bTowerRotate": true
+          },
+          "idInstruction": 798,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 264,
+      "name": "凉拖"
+    },
+    {
+      "resource": "Crab",
+      "icon": "02_明文资源/assets/res/towerskin/icon/Crab01.png",
+      "iconSha256": "c21f64109c076dd46b7b25a0041ea9e47fb24ff3681e973921657c3dc0b0558d",
+      "evidence": {
+        "luac": {
+          "resource": "Crab",
+          "constantIndex": 12,
+          "tableInstruction": 800,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Crab",
+            "framecount": 3,
+            "res_illu": "CrabI%d.png",
+            "bNeedBoard": true,
+            "bProjRotate": true,
+            "pvrccz": "tower/TCrab.pvr.ccz",
+            "plist": "tower/TCrab.plist",
+            "animName": "tower_Crab",
+            "spanSecond": 0.05,
+            "projFlySpeed": 0,
+            "maxlevel": 3,
+            "msc": "music/tower/TCrab.mp3",
+            "animation": 2,
+            "res": "Crab%d%d.png",
+            "projPositionType": 1,
+            "bTowerRotate": false
+          },
+          "idInstruction": 809,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "Crab",
+          "constantIndex": 12,
+          "tableInstruction": 800,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Crab",
+            "framecount": 3,
+            "res_illu": "CrabI%d.png",
+            "bNeedBoard": true,
+            "bProjRotate": true,
+            "pvrccz": "tower/TCrab.pvr.ccz",
+            "plist": "tower/TCrab.plist",
+            "animName": "tower_Crab",
+            "spanSecond": 0.05,
+            "projFlySpeed": 0,
+            "maxlevel": 3,
+            "msc": "music/tower/TCrab.mp3",
+            "animation": 2,
+            "res": "Crab%d%d.png",
+            "projPositionType": 1,
+            "bTowerRotate": false
+          },
+          "idInstruction": 809,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 265,
+      "name": "蟹蟹"
+    },
+    {
+      "resource": "Donut",
+      "icon": "02_明文资源/assets/res/towerskin/icon/Donut01.png",
+      "iconSha256": "a71a0e8c35cb04e774831c729b3683ab3ddaff1862f0ce6cddea41fd501fa5af",
+      "evidence": {
+        "luac": {
+          "resource": "Donut",
+          "constantIndex": 11,
+          "tableInstruction": 811,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Donut",
+            "framecount": 1,
+            "res_illu": "DonutI%d.png",
+            "bullet_animation": 2,
+            "bProjRotate": true,
+            "plist": "tower/TDonut.plist",
+            "spanSecond": 0.05,
+            "animName": "tower_donut",
+            "hit_animation": 2,
+            "bNeedBoard": true,
+            "pvrccz": "tower/TDonut.pvr.ccz",
+            "bCross": false,
+            "maxlevel": 3,
+            "msc": "music/tower/PDonut.mp3",
+            "animation": 2,
+            "res": "tower_donut_%02d.png",
+            "projPositionType": 3,
+            "bTowerRotate": true
+          },
+          "idInstruction": 822,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "Donut",
+          "constantIndex": 11,
+          "tableInstruction": 811,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Donut",
+            "framecount": 1,
+            "res_illu": "DonutI%d.png",
+            "bullet_animation": 2,
+            "bProjRotate": true,
+            "plist": "tower/TDonut.plist",
+            "spanSecond": 0.05,
+            "animName": "tower_donut",
+            "hit_animation": 2,
+            "bNeedBoard": true,
+            "pvrccz": "tower/TDonut.pvr.ccz",
+            "bCross": false,
+            "maxlevel": 3,
+            "msc": "music/tower/PDonut.mp3",
+            "animation": 2,
+            "res": "tower_donut_%02d.png",
+            "projPositionType": 3,
+            "bTowerRotate": true
+          },
+          "idInstruction": 822,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 266,
+      "name": "甜甜圈"
+    },
+    {
+      "resource": "Jellyfish",
+      "icon": "02_明文资源/assets/res/towerskin/icon/Jellyfish01.png",
+      "iconSha256": "3aaf61ca829668d338c23a251f3b7b51900017ae95074994c0b58fee5d161af5",
+      "evidence": {
+        "luac": {
+          "resource": "Jellyfish",
+          "constantIndex": 10,
+          "tableInstruction": 824,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Jellyfish",
+            "framecount": 1,
+            "res_illu": "JellyfishI%d.png",
+            "bullet_animation": 2,
+            "bProjRotate": false,
+            "bNeedBoard": true,
+            "plist": "tower/TJellyfish.plist",
+            "animName": "tower_jellyfish",
+            "spanSecond": 0.05,
+            "pvrccz": "tower/TJellyfish.pvr.ccz",
+            "bCross": false,
+            "maxlevel": 3,
+            "msc": "music/tower/TJellyfish.mp3",
+            "animation": 2,
+            "res": "tower_jellyfish_%02d.png",
+            "projPositionType": 3,
+            "bTowerRotate": false
+          },
+          "idInstruction": 835,
+          "source": "02_明文资源/assets/src/1959470013/1915586555",
+          "moduleSha256": "dd919af6aa24e6b2f28aed46d71f234e836f215b4d01195d761c59db639a2968"
+        },
+        "luac64": {
+          "resource": "Jellyfish",
+          "constantIndex": 10,
+          "tableInstruction": 824,
+          "resourceConfig": {
+            "interval": 1,
+            "name": "Jellyfish",
+            "framecount": 1,
+            "res_illu": "JellyfishI%d.png",
+            "bullet_animation": 2,
+            "bProjRotate": false,
+            "bNeedBoard": true,
+            "plist": "tower/TJellyfish.plist",
+            "animName": "tower_jellyfish",
+            "spanSecond": 0.05,
+            "pvrccz": "tower/TJellyfish.pvr.ccz",
+            "bCross": false,
+            "maxlevel": 3,
+            "msc": "music/tower/TJellyfish.mp3",
+            "animation": 2,
+            "res": "tower_jellyfish_%02d.png",
+            "projPositionType": 3,
+            "bTowerRotate": false
+          },
+          "idInstruction": 835,
+          "source": "02_明文资源/assets/src/1959470013/3480245249",
+          "moduleSha256": "3447c217a68e25e090cafda2e09a657d2ea42107cff59a985e886f385c01a1f6"
+        }
+      },
+      "id": 267,
+      "name": "小水母"
+    }
+  ]
+}

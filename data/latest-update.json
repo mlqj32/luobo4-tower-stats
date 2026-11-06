@@ -1,0 +1,13 @@
+{
+  "checkedAt": "2026-11-06T18:17:50+08:00",
+  "appVersion": "1.4.0",
+  "buildCode": 37304,
+  "channel": "official",
+  "patchCount": 36,
+  "downloadBytes": 487735601,
+  "latestEndCode": "4219b0841d",
+  "matchesCurrentStatisticsChain": true,
+  "previousEndCode": "4219b0841d",
+  "newPatchFiles": [],
+  "scope": "本次官方接口为本项目1.4.0/37304官方渠道返回的更新链；非所有渠道或未来版本。"
+}
